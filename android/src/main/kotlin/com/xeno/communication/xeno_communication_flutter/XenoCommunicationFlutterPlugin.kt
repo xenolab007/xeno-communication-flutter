@@ -43,7 +43,7 @@ class XenoCommunicationFlutterPlugin : FlutterPlugin, MethodCallHandler {
             print("Device token: $token")
             result.success(true)
         } else if (call.method == "on-message-received") {
-            val msg = call.argument<HashMap<String, Any>>("message") as HashMap<String, Any>
+            val msg = call.argument<HashMap<String, Any>>("payload") as HashMap<String, Any>
             print("Message received: $msg")
             result.success(true)
         } else if (call.method == "unset-user") {
