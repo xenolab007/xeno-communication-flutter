@@ -52,7 +52,7 @@ android {
     dependencies {
         testImplementation("org.jetbrains.kotlin:kotlin-test")
         testImplementation("org.mockito:mockito-core:5.2.0")
-        implementation(project(":xeno-communication"))
+//        implementation(project(":xeno-communication"))
     }
 
     testOptions {
