@@ -35,10 +35,10 @@ class XenoCommunicationFlutterPlugin : FlutterPlugin, MethodCallHandler {
             val email = call.argument<String?>("email") as String?
             val name = call.argument<String?>("name") as String?
 
-            print("Phone: $phone")
-            print("Country code: $countryCode")
-            print("Email: $email")
-            print("Name: $name")
+            Log.i(TAG, "Phone: $phone")
+            Log.i(TAG, "Country code: $countryCode")
+            Log.i(TAG, "Email: $email")
+            Log.i(TAG, "Name: $name")
 
             result.success(true)
         } else if (call.method == "update-device-token") {
