@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:xeno_communication_flutter/xeno_communication_flutter.dart';
 
 void main() {
   runApp(const MyApp());
