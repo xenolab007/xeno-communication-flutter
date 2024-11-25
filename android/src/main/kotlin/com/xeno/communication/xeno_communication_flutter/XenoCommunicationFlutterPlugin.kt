@@ -73,7 +73,7 @@ class XenoCommunicationFlutterPlugin : FlutterPlugin, MethodCallHandler, Activit
 
             } else if (call.method == "on-message-received") {
 
-                val msgMap = call.argument<HashMap<String, Any>>("payload") as HashMap<String, Any>
+                val msgMap = call.argument<HashMap<Any?, Any?>>("payload") as HashMap<Any?, Any?>
                 Log.i(tag, "Message received: $msgMap")
 
                 XenoSDK.instance?.onMessageReceived(JSONObject(msgMap))
