@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
@@ -46,9 +48,12 @@ class MethodChannelXenoCommunicationFlutter
   @override
   Future<bool> onMessageReceived(Map<String, dynamic> message) async {
     Map<String, dynamic> arguments = {
-      "payload": message,
+      "payload": jsonEncode(message),
     };
-    await methodChannel.invokeMethod<bool>('on-message-received', arguments);
+    await methodChannel.invokeMethod<bool>(
+      'on-message-received',
+      arguments,
+    );
     return true;
   }
 
