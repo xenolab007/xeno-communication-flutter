@@ -1,6 +1,15 @@
 import 'package:xeno_communication_flutter/xeno_communication_flutter_platform_interface.dart';
 
 class XenoCommunicationFlutter {
+  static final XenoCommunicationFlutter _instance =
+      XenoCommunicationFlutter._internal();
+
+  XenoCommunicationFlutter._internal();
+
+  factory XenoCommunicationFlutter() {
+    return _instance;
+  }
+
   Future<bool> sdkInit(String apiKey) {
     return XenoCommunicationFlutterPlatform.instance.sdkInit(apiKey);
   }
