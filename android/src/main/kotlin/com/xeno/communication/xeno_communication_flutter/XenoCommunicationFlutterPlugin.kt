@@ -38,7 +38,7 @@ class XenoCommunicationFlutterPlugin : FlutterPlugin, MethodCallHandler, Activit
                 val apiKey = call.argument<String?>("apiKey") as String?
                 Log.i(tag, "API Key: $apiKey")
                 if (apiKey != null) {
-                    XenoSDK.initialise(XenoSDK.XenoConfig(context, apiKey))
+                    XenoSDK.initialise(XenoSDK.XenoConfig(activity, apiKey))
                 }
                 result.success(true)
 
