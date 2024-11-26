@@ -52,7 +52,7 @@ android {
     dependencies {
         testImplementation("org.jetbrains.kotlin:kotlin-test")
         testImplementation("org.mockito:mockito-core:5.2.0")
-        implementation("com.getxeno.sdk:xeno-test-notif:1.0.0-alpha14")
+        implementation("com.getxeno.sdk:xeno-test-notif:1.0.0-alpha16")
 
     }
 
