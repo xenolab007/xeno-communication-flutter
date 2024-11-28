@@ -10,8 +10,14 @@ class XenoCommunicationFlutter {
     return _instance;
   }
 
-  Future<bool> sdkInit(String apiKey) {
-    return XenoCommunicationFlutterPlatform.instance.sdkInit(apiKey);
+  Future<bool> sdkInit(
+    String apiKey, {
+    bool isProduction = false,
+  }) {
+    return XenoCommunicationFlutterPlatform.instance.sdkInit(
+      apiKey,
+      isProduction: isProduction,
+    );
   }
 
   Future<bool> setUser({
