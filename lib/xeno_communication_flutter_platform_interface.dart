@@ -24,7 +24,10 @@ abstract class XenoCommunicationFlutterPlatform extends PlatformInterface {
     _instance = instance;
   }
 
-  Future<bool> sdkInit(String apiKey) {
+  Future<bool> sdkInit(
+    String apiKey, {
+    bool isProduction = false,
+  }) {
     throw UnimplementedError('sdkInit() has not been implemented.');
   }
 

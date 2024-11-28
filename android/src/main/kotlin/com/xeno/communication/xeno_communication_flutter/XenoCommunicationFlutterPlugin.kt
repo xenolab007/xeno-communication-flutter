@@ -36,9 +36,10 @@ class XenoCommunicationFlutterPlugin : FlutterPlugin, MethodCallHandler, Activit
         try {
             if (call.method == "sdk-initialize") {
                 val apiKey = call.argument<String?>("apiKey") as String?
+                val isProduction = call.argument<Boolean?>("isProduction") as Boolean?
                 Log.i(tag, "API Key: $apiKey")
                 if (apiKey != null) {
-                    XenoSDK.initialise(XenoSDK.XenoConfig(activity, apiKey))
+                    XenoSDK.initialise(XenoSDK.XenoConfig(activity, apiKey, isProduction == true))
                 }
                 result.success(true)
 

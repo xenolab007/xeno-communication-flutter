@@ -13,8 +13,14 @@ class MethodChannelXenoCommunicationFlutter
   final methodChannel = const MethodChannel('xeno/xeno_communication_flutter');
 
   @override
-  Future<bool> sdkInit(String apiKey) async {
-    Map<String, String> arguments = {"apiKey": apiKey};
+  Future<bool> sdkInit(
+    String apiKey, {
+    bool isProduction = false,
+  }) async {
+    Map<String, dynamic> arguments = {
+      "apiKey": apiKey,
+      "isProduction": isProduction
+    };
     await methodChannel.invokeMethod<bool>('sdk-initialize', arguments);
     return true;
   }
