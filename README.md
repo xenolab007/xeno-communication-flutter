@@ -16,3 +16,13 @@
 
     <activity android:name="PushPermissionActivity" android:theme="@style/Theme.Transparent" />
 ```
+
+## Open android permission setting when needed
+```agsl
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                    val settingsIntent: Intent = Intent(Settings.ACTION_APP_NOTIFICATION_SETTINGS)
+                        .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                        .putExtra(Settings.EXTRA_APP_PACKAGE, packageName)
+                    startActivity(settingsIntent)
+         }
+```
