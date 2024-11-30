@@ -64,6 +64,16 @@ class MethodChannelXenoCommunicationFlutter
   }
 
   @override
+  Future<bool> requestNotificationPermission() async {
+    Map<String, dynamic> arguments = {};
+    await methodChannel.invokeMethod<bool>(
+      'request-notification-permission',
+      arguments,
+    );
+    return true;
+  }
+
+  @override
   Future<bool> unsetUser() async {
     Map<String, dynamic> arguments = {};
     await methodChannel.invokeMethod<bool>('unset-user', arguments);

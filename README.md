@@ -1,15 +1,18 @@
 # xeno_communication_flutter
 
-A new Flutter project.
+## How to use
+- [Repo Url](https://github.com/xenolab007/xeno-communication-flutter.git)
+- add this in your pubspec.yml
+```agsl
+  xeno_communication_flutter:
+    git:
+      url: https://github.com/xenolab007/xeno-communication-flutter.git
+      ref: prod
+```
 
-## Getting Started
+## Add This in application's manifest file
+```agsl
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/to/develop-plugins),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
+    <activity android:name="PushPermissionActivity" android:theme="@style/Theme.Transparent" />
+```

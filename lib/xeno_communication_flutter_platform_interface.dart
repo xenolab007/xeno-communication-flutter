@@ -44,6 +44,10 @@ abstract class XenoCommunicationFlutterPlatform extends PlatformInterface {
     throw UnimplementedError('onTokenReceived() has not been implemented.');
   }
 
+  Future<bool> requestNotificationPermission() {
+    throw UnimplementedError('requestNotificationPermission() has not been implemented.');
+  }
+
   Future<bool> onMessageReceived(Map<String, dynamic> message) {
     throw UnimplementedError('onMessageReceived() has not been implemented.');
   }

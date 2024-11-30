@@ -42,6 +42,9 @@ class XenoCommunicationFlutter {
   Future<bool> onMessageReceived(Map<String, dynamic> message) {
     return XenoCommunicationFlutterPlatform.instance.onMessageReceived(message);
   }
+  Future<bool> requestNotificationPermission() {
+    return XenoCommunicationFlutterPlatform.instance.requestNotificationPermission();
+  }
 
   Future<bool> unsetUser() {
     return XenoCommunicationFlutterPlatform.instance.unsetUser();

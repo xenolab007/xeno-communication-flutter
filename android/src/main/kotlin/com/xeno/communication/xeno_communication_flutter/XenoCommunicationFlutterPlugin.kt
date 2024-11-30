@@ -4,6 +4,8 @@ import android.app.Activity
 import android.content.Context
 import android.util.Log
 import com.xeno.communication.XenoSDK
+import com.xeno.communication.xeno_communication_flutter.helper.PermissionCallback
+import com.xeno.communication.xeno_communication_flutter.helper.PermissionHelper
 import io.flutter.embedding.engine.plugins.FlutterPlugin
 import io.flutter.embedding.engine.plugins.activity.ActivityAware
 import io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding
@@ -63,13 +65,24 @@ class XenoCommunicationFlutterPlugin : FlutterPlugin, MethodCallHandler, Activit
                 )
                 result.success(true)
 
-
             } else if (call.method == "update-device-token") {
 
                 val token = call.argument<String>("deviceToken") as String
                 Log.i(tag, "Device token: $token")
 
                 XenoSDK.instance?.updateDeviceToken(token)
+                result.success(true)
+
+            } else if (call.method == "request-notification-permission") {
+
+//                val hasPermission = call.argument<Boolean>("os-permission") as Boolean
+
+                PermissionHelper.requestPermission(activity, object : PermissionCallback {
+                    override fun onPermissionResult(hasPermission: Boolean) {
+                        XenoSDK.instance?.setNotificationPermission(hasPermission)
+                        Log.i(tag, "HasPermission: $hasPermission")
+                    }
+                })
                 result.success(true)
 
             } else if (call.method == "on-message-received") {
@@ -101,7 +114,7 @@ class XenoCommunicationFlutterPlugin : FlutterPlugin, MethodCallHandler, Activit
     }
 
     override fun onAttachedToActivity(binding: ActivityPluginBinding) {
-        activity = binding.activity;
+        activity = binding.activity
     }
 
     override fun onDetachedFromActivityForConfigChanges() {
