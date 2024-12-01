@@ -1,0 +1,4735 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "XenoCommunicationIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CoreRepository",
+        "printedName": "CoreRepository",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "authenticateSdk",
+            "printedName": "authenticateSdk(authRequest:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "XenoCommunicationIos.ApiResponse<XenoCommunicationIos.SdkAuthData>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApiResponse",
+                    "printedName": "XenoCommunicationIos.ApiResponse<XenoCommunicationIos.SdkAuthData>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SdkAuthData",
+                        "printedName": "XenoCommunicationIos.SdkAuthData",
+                        "usr": "s:20XenoCommunicationIos11SdkAuthDataV"
+                      }
+                    ],
+                    "usr": "s:20XenoCommunicationIos11ApiResponseV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SdkAuthRequest",
+                "printedName": "XenoCommunicationIos.SdkAuthRequest",
+                "usr": "s:20XenoCommunicationIos14SdkAuthRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos14CoreRepositoryC15authenticateSdk11authRequestAA11ApiResponseVyAA0G8AuthDataVGSgAA0glI0V_tYaKF",
+            "mangledName": "$s20XenoCommunicationIos14CoreRepositoryC15authenticateSdk11authRequestAA11ApiResponseVyAA0G8AuthDataVGSgAA0glI0V_tYaKF",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "authenticateUser",
+            "printedName": "authenticateUser(authUserRequest:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "XenoCommunicationIos.ApiResponse<XenoCommunicationIos.AuthUserResponseData>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApiResponse",
+                    "printedName": "XenoCommunicationIos.ApiResponse<XenoCommunicationIos.AuthUserResponseData>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthUserResponseData",
+                        "printedName": "XenoCommunicationIos.AuthUserResponseData",
+                        "usr": "s:20XenoCommunicationIos20AuthUserResponseDataV"
+                      }
+                    ],
+                    "usr": "s:20XenoCommunicationIos11ApiResponseV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UserAuthRequest",
+                "printedName": "XenoCommunicationIos.UserAuthRequest",
+                "usr": "s:20XenoCommunicationIos15UserAuthRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos14CoreRepositoryC16authenticateUser04authG7RequestAA11ApiResponseVyAA04AuthgK4DataVGSgAA0glI0V_tYaKF",
+            "mangledName": "$s20XenoCommunicationIos14CoreRepositoryC16authenticateUser04authG7RequestAA11ApiResponseVyAA04AuthgK4DataVGSgAA0glI0V_tYaKF",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updatedeviceToken",
+            "printedName": "updatedeviceToken(deviceToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "XenoCommunicationIos.ApiResponse<XenoCommunicationIos.DeviceTokenSubmitResponse>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApiResponse",
+                    "printedName": "XenoCommunicationIos.ApiResponse<XenoCommunicationIos.DeviceTokenSubmitResponse>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeviceTokenSubmitResponse",
+                        "printedName": "XenoCommunicationIos.DeviceTokenSubmitResponse",
+                        "usr": "s:20XenoCommunicationIos25DeviceTokenSubmitResponseV"
+                      }
+                    ],
+                    "usr": "s:20XenoCommunicationIos11ApiResponseV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos14CoreRepositoryC17updatedeviceToken06deviceG0AA11ApiResponseVyAA06Deviceg6SubmitJ0VGSgSS_tYaKF",
+            "mangledName": "$s20XenoCommunicationIos14CoreRepositoryC17updatedeviceToken06deviceG0AA11ApiResponseVyAA06Deviceg6SubmitJ0VGSgSS_tYaKF",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateNotificationPermission",
+            "printedName": "updateNotificationPermission(hasPermission:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "XenoCommunicationIos.ApiResponse<XenoCommunicationIos.DeviceTokenSubmitResponse>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApiResponse",
+                    "printedName": "XenoCommunicationIos.ApiResponse<XenoCommunicationIos.DeviceTokenSubmitResponse>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeviceTokenSubmitResponse",
+                        "printedName": "XenoCommunicationIos.DeviceTokenSubmitResponse",
+                        "usr": "s:20XenoCommunicationIos25DeviceTokenSubmitResponseV"
+                      }
+                    ],
+                    "usr": "s:20XenoCommunicationIos11ApiResponseV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos14CoreRepositoryC28updateNotificationPermission03hasH0AA11ApiResponseVyAA017DeviceTokenSubmitK0VGSgSb_tYaKF",
+            "mangledName": "$s20XenoCommunicationIos14CoreRepositoryC28updateNotificationPermission03hasH0AA11ApiResponseVyAA017DeviceTokenSubmitK0VGSgSb_tYaKF",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unsetUser",
+            "printedName": "unsetUser(sessionId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "XenoCommunicationIos.ApiResponse<XenoCommunicationIos.UnsetUserResponseData>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApiResponse",
+                    "printedName": "XenoCommunicationIos.ApiResponse<XenoCommunicationIos.UnsetUserResponseData>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnsetUserResponseData",
+                        "printedName": "XenoCommunicationIos.UnsetUserResponseData",
+                        "usr": "s:20XenoCommunicationIos21UnsetUserResponseDataV"
+                      }
+                    ],
+                    "usr": "s:20XenoCommunicationIos11ApiResponseV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos14CoreRepositoryC9unsetUser9sessionIdAA11ApiResponseVyAA05UnsetgK4DataVGSgSS_tYaKF",
+            "mangledName": "$s20XenoCommunicationIos14CoreRepositoryC9unsetUser9sessionIdAA11ApiResponseVyAA05UnsetgK4DataVGSgSS_tYaKF",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CoreRepository",
+                "printedName": "XenoCommunicationIos.CoreRepository",
+                "usr": "s:20XenoCommunicationIos14CoreRepositoryC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20XenoCommunicationIos14CoreRepositoryCACycfc",
+            "mangledName": "$s20XenoCommunicationIos14CoreRepositoryCACycfc",
+            "moduleName": "XenoCommunicationIos",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20XenoCommunicationIos14CoreRepositoryC",
+        "mangledName": "$s20XenoCommunicationIos14CoreRepositoryC",
+        "moduleName": "XenoCommunicationIos",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "XenoCommunicationIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppKeychainManager",
+        "printedName": "AppKeychainManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "serviceName",
+            "printedName": "serviceName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos18AppKeychainManagerC11serviceNameSSvp",
+            "mangledName": "$s20XenoCommunicationIos18AppKeychainManagerC11serviceNameSSvp",
+            "moduleName": "XenoCommunicationIos",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos18AppKeychainManagerC11serviceNameSSvg",
+                "mangledName": "$s20XenoCommunicationIos18AppKeychainManagerC11serviceNameSSvg",
+                "moduleName": "XenoCommunicationIos",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accountName",
+            "printedName": "accountName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos18AppKeychainManagerC11accountNameSSvp",
+            "mangledName": "$s20XenoCommunicationIos18AppKeychainManagerC11accountNameSSvp",
+            "moduleName": "XenoCommunicationIos",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos18AppKeychainManagerC11accountNameSSvg",
+                "mangledName": "$s20XenoCommunicationIos18AppKeychainManagerC11accountNameSSvg",
+                "moduleName": "XenoCommunicationIos",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getDeviceIdentifier",
+            "printedName": "getDeviceIdentifier()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos18AppKeychainManagerC19getDeviceIdentifierSSyF",
+            "mangledName": "$s20XenoCommunicationIos18AppKeychainManagerC19getDeviceIdentifierSSyF",
+            "moduleName": "XenoCommunicationIos",
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AppKeychainManager",
+                "printedName": "XenoCommunicationIos.AppKeychainManager",
+                "usr": "s:20XenoCommunicationIos18AppKeychainManagerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20XenoCommunicationIos18AppKeychainManagerCACycfc",
+            "mangledName": "$s20XenoCommunicationIos18AppKeychainManagerCACycfc",
+            "moduleName": "XenoCommunicationIos",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20XenoCommunicationIos18AppKeychainManagerC",
+        "mangledName": "$s20XenoCommunicationIos18AppKeychainManagerC",
+        "moduleName": "XenoCommunicationIos",
+        "declAttributes": [
+          "Final"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "XenoCommunicationIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SdkAuthRequest",
+        "printedName": "SdkAuthRequest",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "apiKey",
+            "printedName": "apiKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos14SdkAuthRequestV6apiKeySSvp",
+            "mangledName": "$s20XenoCommunicationIos14SdkAuthRequestV6apiKeySSvp",
+            "moduleName": "XenoCommunicationIos",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos14SdkAuthRequestV6apiKeySSvg",
+                "mangledName": "$s20XenoCommunicationIos14SdkAuthRequestV6apiKeySSvg",
+                "moduleName": "XenoCommunicationIos",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SdkAuthRequest",
+                "printedName": "XenoCommunicationIos.SdkAuthRequest",
+                "usr": "s:20XenoCommunicationIos14SdkAuthRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20XenoCommunicationIos14SdkAuthRequestV6apiKeyACSS_tcfc",
+            "mangledName": "$s20XenoCommunicationIos14SdkAuthRequestV6apiKeyACSS_tcfc",
+            "moduleName": "XenoCommunicationIos",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SdkAuthRequest",
+                "printedName": "XenoCommunicationIos.SdkAuthRequest",
+                "usr": "s:20XenoCommunicationIos14SdkAuthRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20XenoCommunicationIos14SdkAuthRequestV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s20XenoCommunicationIos14SdkAuthRequestV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "XenoCommunicationIos",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20XenoCommunicationIos14SdkAuthRequestV",
+        "mangledName": "$s20XenoCommunicationIos14SdkAuthRequestV",
+        "moduleName": "XenoCommunicationIos",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SdkAuthData",
+        "printedName": "SdkAuthData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "merchantToken",
+            "printedName": "merchantToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos11SdkAuthDataV13merchantTokenSSvp",
+            "mangledName": "$s20XenoCommunicationIos11SdkAuthDataV13merchantTokenSSvp",
+            "moduleName": "XenoCommunicationIos",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos11SdkAuthDataV13merchantTokenSSvg",
+                "mangledName": "$s20XenoCommunicationIos11SdkAuthDataV13merchantTokenSSvg",
+                "moduleName": "XenoCommunicationIos",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sessionId",
+            "printedName": "sessionId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos11SdkAuthDataV9sessionIdSSvp",
+            "mangledName": "$s20XenoCommunicationIos11SdkAuthDataV9sessionIdSSvp",
+            "moduleName": "XenoCommunicationIos",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos11SdkAuthDataV9sessionIdSSvg",
+                "mangledName": "$s20XenoCommunicationIos11SdkAuthDataV9sessionIdSSvg",
+                "moduleName": "XenoCommunicationIos",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(merchantToken:sessionId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SdkAuthData",
+                "printedName": "XenoCommunicationIos.SdkAuthData",
+                "usr": "s:20XenoCommunicationIos11SdkAuthDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20XenoCommunicationIos11SdkAuthDataV13merchantToken9sessionIdACSS_SStcfc",
+            "mangledName": "$s20XenoCommunicationIos11SdkAuthDataV13merchantToken9sessionIdACSS_SStcfc",
+            "moduleName": "XenoCommunicationIos",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SdkAuthData",
+                "printedName": "XenoCommunicationIos.SdkAuthData",
+                "usr": "s:20XenoCommunicationIos11SdkAuthDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20XenoCommunicationIos11SdkAuthDataV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s20XenoCommunicationIos11SdkAuthDataV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "XenoCommunicationIos",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20XenoCommunicationIos11SdkAuthDataV",
+        "mangledName": "$s20XenoCommunicationIos11SdkAuthDataV",
+        "moduleName": "XenoCommunicationIos",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ApiResponse",
+        "printedName": "ApiResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos11ApiResponseV7successSbvp",
+            "mangledName": "$s20XenoCommunicationIos11ApiResponseV7successSbvp",
+            "moduleName": "XenoCommunicationIos",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos11ApiResponseV7successSbvg",
+                "mangledName": "$s20XenoCommunicationIos11ApiResponseV7successSbvg",
+                "moduleName": "XenoCommunicationIos",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable>",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos11ApiResponseV7messageSSvp",
+            "mangledName": "$s20XenoCommunicationIos11ApiResponseV7messageSSvp",
+            "moduleName": "XenoCommunicationIos",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos11ApiResponseV7messageSSvg",
+                "mangledName": "$s20XenoCommunicationIos11ApiResponseV7messageSSvg",
+                "moduleName": "XenoCommunicationIos",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable>",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos11ApiResponseV4dataxvp",
+            "mangledName": "$s20XenoCommunicationIos11ApiResponseV4dataxvp",
+            "moduleName": "XenoCommunicationIos",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos11ApiResponseV4dataxvg",
+                "mangledName": "$s20XenoCommunicationIos11ApiResponseV4dataxvg",
+                "moduleName": "XenoCommunicationIos",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable>",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(success:message:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ApiResponse",
+                "printedName": "XenoCommunicationIos.ApiResponse<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:20XenoCommunicationIos11ApiResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20XenoCommunicationIos11ApiResponseV7success7message4dataACyxGSb_SSxtcfc",
+            "mangledName": "$s20XenoCommunicationIos11ApiResponseV7success7message4dataACyxGSb_SSxtcfc",
+            "moduleName": "XenoCommunicationIos",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ApiResponse",
+                "printedName": "XenoCommunicationIos.ApiResponse<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:20XenoCommunicationIos11ApiResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20XenoCommunicationIos11ApiResponseV4fromACyxGs7Decoder_p_tKcfc",
+            "mangledName": "$s20XenoCommunicationIos11ApiResponseV4fromACyxGs7Decoder_p_tKcfc",
+            "moduleName": "XenoCommunicationIos",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20XenoCommunicationIos11ApiResponseV",
+        "mangledName": "$s20XenoCommunicationIos11ApiResponseV",
+        "moduleName": "XenoCommunicationIos",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+        "sugared_genericSig": "<T where T : Swift.Decodable>",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "XenoCommunicationIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CacheManager",
+        "printedName": "CacheManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "instance",
+            "printedName": "instance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CacheManager",
+                "printedName": "XenoCommunicationIos.CacheManager",
+                "usr": "s:20XenoCommunicationIos12CacheManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos12CacheManagerC8instanceACvpZ",
+            "mangledName": "$s20XenoCommunicationIos12CacheManagerC8instanceACvpZ",
+            "moduleName": "XenoCommunicationIos",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CacheManager",
+                    "printedName": "XenoCommunicationIos.CacheManager",
+                    "usr": "s:20XenoCommunicationIos12CacheManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos12CacheManagerC8instanceACvgZ",
+                "mangledName": "$s20XenoCommunicationIos12CacheManagerC8instanceACvgZ",
+                "moduleName": "XenoCommunicationIos",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sessionId",
+            "printedName": "sessionId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos12CacheManagerC9sessionId33_66E9B6F65505E071ECD54C772628A241LLSSvp",
+            "mangledName": "$s20XenoCommunicationIos12CacheManagerC9sessionId33_66E9B6F65505E071ECD54C772628A241LLSSvp",
+            "moduleName": "XenoCommunicationIos",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "merchantJwtTokenTemp",
+            "printedName": "merchantJwtTokenTemp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos12CacheManagerC20merchantJwtTokenTemp33_66E9B6F65505E071ECD54C772628A241LLSSvp",
+            "mangledName": "$s20XenoCommunicationIos12CacheManagerC20merchantJwtTokenTemp33_66E9B6F65505E071ECD54C772628A241LLSSvp",
+            "moduleName": "XenoCommunicationIos",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "userJwtToken",
+            "printedName": "userJwtToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos12CacheManagerC12userJwtToken33_66E9B6F65505E071ECD54C772628A241LLSSvp",
+            "mangledName": "$s20XenoCommunicationIos12CacheManagerC12userJwtToken33_66E9B6F65505E071ECD54C772628A241LLSSvp",
+            "moduleName": "XenoCommunicationIos",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "sdkAuthRequest",
+            "printedName": "sdkAuthRequest",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "XenoCommunicationIos.SdkAuthRequest?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SdkAuthRequest",
+                    "printedName": "XenoCommunicationIos.SdkAuthRequest",
+                    "usr": "s:20XenoCommunicationIos14SdkAuthRequestV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos12CacheManagerC14sdkAuthRequest33_66E9B6F65505E071ECD54C772628A241LLAA03SdkgH0VSgvp",
+            "mangledName": "$s20XenoCommunicationIos12CacheManagerC14sdkAuthRequest33_66E9B6F65505E071ECD54C772628A241LLAA03SdkgH0VSgvp",
+            "moduleName": "XenoCommunicationIos",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "userAuthRequest",
+            "printedName": "userAuthRequest",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "XenoCommunicationIos.UserAuthRequest?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserAuthRequest",
+                    "printedName": "XenoCommunicationIos.UserAuthRequest",
+                    "usr": "s:20XenoCommunicationIos15UserAuthRequestV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos12CacheManagerC15userAuthRequest33_66E9B6F65505E071ECD54C772628A241LLAA04UsergH0VSgvp",
+            "mangledName": "$s20XenoCommunicationIos12CacheManagerC15userAuthRequest33_66E9B6F65505E071ECD54C772628A241LLAA04UsergH0VSgvp",
+            "moduleName": "XenoCommunicationIos",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "isProduction",
+            "printedName": "isProduction",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos12CacheManagerC12isProduction33_66E9B6F65505E071ECD54C772628A241LLSbvp",
+            "mangledName": "$s20XenoCommunicationIos12CacheManagerC12isProduction33_66E9B6F65505E071ECD54C772628A241LLSbvp",
+            "moduleName": "XenoCommunicationIos",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 5,
+            "hasStorage": true
+          },
+          {
+            "kind": "Function",
+            "name": "getIsProduction",
+            "printedName": "getIsProduction()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos12CacheManagerC15getIsProductionSbyF",
+            "mangledName": "$s20XenoCommunicationIos12CacheManagerC15getIsProductionSbyF",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSessionId",
+            "printedName": "getSessionId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos12CacheManagerC12getSessionIdSSyF",
+            "mangledName": "$s20XenoCommunicationIos12CacheManagerC12getSessionIdSSyF",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUserJwtToken",
+            "printedName": "getUserJwtToken()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos12CacheManagerC15getUserJwtTokenSSyF",
+            "mangledName": "$s20XenoCommunicationIos12CacheManagerC15getUserJwtTokenSSyF",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setProduction",
+            "printedName": "setProduction(isProduction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos12CacheManagerC13setProduction02isG0ySb_tF",
+            "mangledName": "$s20XenoCommunicationIos12CacheManagerC13setProduction02isG0ySb_tF",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "saveUserJwtToken",
+            "printedName": "saveUserJwtToken(token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos12CacheManagerC16saveUserJwtToken5tokenySS_tF",
+            "mangledName": "$s20XenoCommunicationIos12CacheManagerC16saveUserJwtToken5tokenySS_tF",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMerchantJwtTokenTemp",
+            "printedName": "getMerchantJwtTokenTemp()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos12CacheManagerC23getMerchantJwtTokenTempSSyF",
+            "mangledName": "$s20XenoCommunicationIos12CacheManagerC23getMerchantJwtTokenTempSSyF",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "saveMerchantJwtTokenTemp",
+            "printedName": "saveMerchantJwtTokenTemp(result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SdkAuthData",
+                "printedName": "XenoCommunicationIos.SdkAuthData",
+                "usr": "s:20XenoCommunicationIos11SdkAuthDataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos12CacheManagerC24saveMerchantJwtTokenTemp6resultyAA11SdkAuthDataV_tF",
+            "mangledName": "$s20XenoCommunicationIos12CacheManagerC24saveMerchantJwtTokenTemp6resultyAA11SdkAuthDataV_tF",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "saveSdkAuthRequest",
+            "printedName": "saveSdkAuthRequest(req:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SdkAuthRequest",
+                "printedName": "XenoCommunicationIos.SdkAuthRequest",
+                "usr": "s:20XenoCommunicationIos14SdkAuthRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos12CacheManagerC18saveSdkAuthRequest3reqyAA0ghI0V_tF",
+            "mangledName": "$s20XenoCommunicationIos12CacheManagerC18saveSdkAuthRequest3reqyAA0ghI0V_tF",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "saveUserAuthRequest",
+            "printedName": "saveUserAuthRequest(req:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "XenoCommunicationIos.UserAuthRequest?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserAuthRequest",
+                    "printedName": "XenoCommunicationIos.UserAuthRequest",
+                    "usr": "s:20XenoCommunicationIos15UserAuthRequestV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos12CacheManagerC19saveUserAuthRequest3reqyAA0ghI0VSg_tF",
+            "mangledName": "$s20XenoCommunicationIos12CacheManagerC19saveUserAuthRequest3reqyAA0ghI0VSg_tF",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reAuthSdk",
+            "printedName": "reAuthSdk()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos12CacheManagerC9reAuthSdkSSyYaKF",
+            "mangledName": "$s20XenoCommunicationIos12CacheManagerC9reAuthSdkSSyYaKF",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reAuthUser",
+            "printedName": "reAuthUser()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos12CacheManagerC10reAuthUserSSyYaKF",
+            "mangledName": "$s20XenoCommunicationIos12CacheManagerC10reAuthUserSSyYaKF",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20XenoCommunicationIos12CacheManagerC",
+        "mangledName": "$s20XenoCommunicationIos12CacheManagerC",
+        "moduleName": "XenoCommunicationIos",
+        "isOpen": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDKError",
+        "printedName": "SDKError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "missingSdkParams",
+            "printedName": "missingSdkParams",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(XenoCommunicationIos.SDKError.Type) -> XenoCommunicationIos.SDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKError",
+                    "printedName": "XenoCommunicationIos.SDKError",
+                    "usr": "s:20XenoCommunicationIos8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "XenoCommunicationIos.SDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKError",
+                        "printedName": "XenoCommunicationIos.SDKError",
+                        "usr": "s:20XenoCommunicationIos8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20XenoCommunicationIos8SDKErrorO16missingSdkParamsyA2CmF",
+            "mangledName": "$s20XenoCommunicationIos8SDKErrorO16missingSdkParamsyA2CmF",
+            "moduleName": "XenoCommunicationIos",
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "missingUserParams",
+            "printedName": "missingUserParams",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(XenoCommunicationIos.SDKError.Type) -> XenoCommunicationIos.SDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKError",
+                    "printedName": "XenoCommunicationIos.SDKError",
+                    "usr": "s:20XenoCommunicationIos8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "XenoCommunicationIos.SDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKError",
+                        "printedName": "XenoCommunicationIos.SDKError",
+                        "usr": "s:20XenoCommunicationIos8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20XenoCommunicationIos8SDKErrorO17missingUserParamsyA2CmF",
+            "mangledName": "$s20XenoCommunicationIos8SDKErrorO17missingUserParamsyA2CmF",
+            "moduleName": "XenoCommunicationIos",
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "tokenFetchError",
+            "printedName": "tokenFetchError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(XenoCommunicationIos.SDKError.Type) -> XenoCommunicationIos.SDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKError",
+                    "printedName": "XenoCommunicationIos.SDKError",
+                    "usr": "s:20XenoCommunicationIos8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "XenoCommunicationIos.SDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKError",
+                        "printedName": "XenoCommunicationIos.SDKError",
+                        "usr": "s:20XenoCommunicationIos8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20XenoCommunicationIos8SDKErrorO15tokenFetchErroryA2CmF",
+            "mangledName": "$s20XenoCommunicationIos8SDKErrorO15tokenFetchErroryA2CmF",
+            "moduleName": "XenoCommunicationIos",
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SDKError",
+                "printedName": "XenoCommunicationIos.SDKError",
+                "usr": "s:20XenoCommunicationIos8SDKErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SDKError",
+                "printedName": "XenoCommunicationIos.SDKError",
+                "usr": "s:20XenoCommunicationIos8SDKErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos8SDKErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s20XenoCommunicationIos8SDKErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "XenoCommunicationIos",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos8SDKErrorO9hashValueSivp",
+            "mangledName": "$s20XenoCommunicationIos8SDKErrorO9hashValueSivp",
+            "moduleName": "XenoCommunicationIos",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos8SDKErrorO9hashValueSivg",
+                "mangledName": "$s20XenoCommunicationIos8SDKErrorO9hashValueSivg",
+                "moduleName": "XenoCommunicationIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos8SDKErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s20XenoCommunicationIos8SDKErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "XenoCommunicationIos",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:20XenoCommunicationIos8SDKErrorO",
+        "mangledName": "$s20XenoCommunicationIos8SDKErrorO",
+        "moduleName": "XenoCommunicationIos",
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "XenoCommunicationIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserAuthRequest",
+        "printedName": "UserAuthRequest",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "countryCode",
+            "printedName": "countryCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos15UserAuthRequestV11countryCodeSSSgvp",
+            "mangledName": "$s20XenoCommunicationIos15UserAuthRequestV11countryCodeSSSgvp",
+            "moduleName": "XenoCommunicationIos",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos15UserAuthRequestV11countryCodeSSSgvg",
+                "mangledName": "$s20XenoCommunicationIos15UserAuthRequestV11countryCodeSSSgvg",
+                "moduleName": "XenoCommunicationIos",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "phone",
+            "printedName": "phone",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos15UserAuthRequestV5phoneSSSgvp",
+            "mangledName": "$s20XenoCommunicationIos15UserAuthRequestV5phoneSSSgvp",
+            "moduleName": "XenoCommunicationIos",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos15UserAuthRequestV5phoneSSSgvg",
+                "mangledName": "$s20XenoCommunicationIos15UserAuthRequestV5phoneSSSgvg",
+                "moduleName": "XenoCommunicationIos",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos15UserAuthRequestV5emailSSSgvp",
+            "mangledName": "$s20XenoCommunicationIos15UserAuthRequestV5emailSSSgvp",
+            "moduleName": "XenoCommunicationIos",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos15UserAuthRequestV5emailSSSgvg",
+                "mangledName": "$s20XenoCommunicationIos15UserAuthRequestV5emailSSSgvg",
+                "moduleName": "XenoCommunicationIos",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos15UserAuthRequestV4nameSSSgvp",
+            "mangledName": "$s20XenoCommunicationIos15UserAuthRequestV4nameSSSgvp",
+            "moduleName": "XenoCommunicationIos",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos15UserAuthRequestV4nameSSSgvg",
+                "mangledName": "$s20XenoCommunicationIos15UserAuthRequestV4nameSSSgvg",
+                "moduleName": "XenoCommunicationIos",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(countryCode:phone:email:name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserAuthRequest",
+                "printedName": "XenoCommunicationIos.UserAuthRequest",
+                "usr": "s:20XenoCommunicationIos15UserAuthRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20XenoCommunicationIos15UserAuthRequestV11countryCode5phone5email4nameACSSSg_A3Htcfc",
+            "mangledName": "$s20XenoCommunicationIos15UserAuthRequestV11countryCode5phone5email4nameACSSSg_A3Htcfc",
+            "moduleName": "XenoCommunicationIos",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserAuthRequest",
+                "printedName": "XenoCommunicationIos.UserAuthRequest",
+                "usr": "s:20XenoCommunicationIos15UserAuthRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20XenoCommunicationIos15UserAuthRequestV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s20XenoCommunicationIos15UserAuthRequestV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "XenoCommunicationIos",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20XenoCommunicationIos15UserAuthRequestV",
+        "mangledName": "$s20XenoCommunicationIos15UserAuthRequestV",
+        "moduleName": "XenoCommunicationIos",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AuthUserResponseData",
+        "printedName": "AuthUserResponseData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "userToken",
+            "printedName": "userToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos20AuthUserResponseDataV9userTokenSSvp",
+            "mangledName": "$s20XenoCommunicationIos20AuthUserResponseDataV9userTokenSSvp",
+            "moduleName": "XenoCommunicationIos",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos20AuthUserResponseDataV9userTokenSSvg",
+                "mangledName": "$s20XenoCommunicationIos20AuthUserResponseDataV9userTokenSSvg",
+                "moduleName": "XenoCommunicationIos",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(userToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AuthUserResponseData",
+                "printedName": "XenoCommunicationIos.AuthUserResponseData",
+                "usr": "s:20XenoCommunicationIos20AuthUserResponseDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20XenoCommunicationIos20AuthUserResponseDataV9userTokenACSS_tcfc",
+            "mangledName": "$s20XenoCommunicationIos20AuthUserResponseDataV9userTokenACSS_tcfc",
+            "moduleName": "XenoCommunicationIos",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AuthUserResponseData",
+                "printedName": "XenoCommunicationIos.AuthUserResponseData",
+                "usr": "s:20XenoCommunicationIos20AuthUserResponseDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20XenoCommunicationIos20AuthUserResponseDataV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s20XenoCommunicationIos20AuthUserResponseDataV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "XenoCommunicationIos",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20XenoCommunicationIos20AuthUserResponseDataV",
+        "mangledName": "$s20XenoCommunicationIos20AuthUserResponseDataV",
+        "moduleName": "XenoCommunicationIos",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UnsetUserResponseData",
+        "printedName": "UnsetUserResponseData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos21UnsetUserResponseDataV7messageSSvp",
+            "mangledName": "$s20XenoCommunicationIos21UnsetUserResponseDataV7messageSSvp",
+            "moduleName": "XenoCommunicationIos",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos21UnsetUserResponseDataV7messageSSvg",
+                "mangledName": "$s20XenoCommunicationIos21UnsetUserResponseDataV7messageSSvg",
+                "moduleName": "XenoCommunicationIos",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsetUserResponseData",
+                "printedName": "XenoCommunicationIos.UnsetUserResponseData",
+                "usr": "s:20XenoCommunicationIos21UnsetUserResponseDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20XenoCommunicationIos21UnsetUserResponseDataV7messageACSS_tcfc",
+            "mangledName": "$s20XenoCommunicationIos21UnsetUserResponseDataV7messageACSS_tcfc",
+            "moduleName": "XenoCommunicationIos",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsetUserResponseData",
+                "printedName": "XenoCommunicationIos.UnsetUserResponseData",
+                "usr": "s:20XenoCommunicationIos21UnsetUserResponseDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20XenoCommunicationIos21UnsetUserResponseDataV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s20XenoCommunicationIos21UnsetUserResponseDataV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "XenoCommunicationIos",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20XenoCommunicationIos21UnsetUserResponseDataV",
+        "mangledName": "$s20XenoCommunicationIos21UnsetUserResponseDataV",
+        "moduleName": "XenoCommunicationIos",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "XenoCommunicationIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "XenoCommunication",
+        "printedName": "XenoCommunication",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "config",
+            "printedName": "config",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "XenoConfig",
+                "printedName": "XenoCommunicationIos.XenoConfig",
+                "usr": "s:20XenoCommunicationIos0A6ConfigV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos0aB0C6configAA0A6ConfigVvp",
+            "mangledName": "$s20XenoCommunicationIos0aB0C6configAA0A6ConfigVvp",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "XenoConfig",
+                    "printedName": "XenoCommunicationIos.XenoConfig",
+                    "usr": "s:20XenoCommunicationIos0A6ConfigV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos0aB0C6configAA0A6ConfigVvg",
+                "mangledName": "$s20XenoCommunicationIos0aB0C6configAA0A6ConfigVvg",
+                "moduleName": "XenoCommunicationIos",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "XenoConfig",
+                    "printedName": "XenoCommunicationIos.XenoConfig",
+                    "usr": "s:20XenoCommunicationIos0A6ConfigV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos0aB0C6configAA0A6ConfigVvs",
+                "mangledName": "$s20XenoCommunicationIos0aB0C6configAA0A6ConfigVvs",
+                "moduleName": "XenoCommunicationIos",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos0aB0C6configAA0A6ConfigVvM",
+                "mangledName": "$s20XenoCommunicationIos0aB0C6configAA0A6ConfigVvM",
+                "moduleName": "XenoCommunicationIos",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "xenoCore",
+            "printedName": "xenoCore",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "XenoCore",
+                "printedName": "XenoCommunicationIos.XenoCore",
+                "usr": "s:20XenoCommunicationIos0A4CoreC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos0aB0C8xenoCoreAA0aE0Cvp",
+            "mangledName": "$s20XenoCommunicationIos0aB0C8xenoCoreAA0aE0Cvp",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "XenoCore",
+                    "printedName": "XenoCommunicationIos.XenoCore",
+                    "usr": "s:20XenoCommunicationIos0A4CoreC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos0aB0C8xenoCoreAA0aE0Cvg",
+                "mangledName": "$s20XenoCommunicationIos0aB0C8xenoCoreAA0aE0Cvg",
+                "moduleName": "XenoCommunicationIos",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "XenoCore",
+                    "printedName": "XenoCommunicationIos.XenoCore",
+                    "usr": "s:20XenoCommunicationIos0A4CoreC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos0aB0C8xenoCoreAA0aE0Cvs",
+                "mangledName": "$s20XenoCommunicationIos0aB0C8xenoCoreAA0aE0Cvs",
+                "moduleName": "XenoCommunicationIos",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos0aB0C8xenoCoreAA0aE0CvM",
+                "mangledName": "$s20XenoCommunicationIos0aB0C8xenoCoreAA0aE0CvM",
+                "moduleName": "XenoCommunicationIos",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "XenoCommunication",
+                "printedName": "XenoCommunicationIos.XenoCommunication",
+                "usr": "s:20XenoCommunicationIos0aB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "XenoConfig",
+                "printedName": "XenoCommunicationIos.XenoConfig",
+                "usr": "s:20XenoCommunicationIos0A6ConfigV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20XenoCommunicationIos0aB0C6configAcA0A6ConfigV_tcfc",
+            "mangledName": "$s20XenoCommunicationIos0aB0C6configAcA0A6ConfigV_tcfc",
+            "moduleName": "XenoCommunicationIos",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setUser",
+            "printedName": "setUser(country:phone:email:name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos0aB0C7setUser7country5phone5email4nameySSSg_A3ItF",
+            "mangledName": "$s20XenoCommunicationIos0aB0C7setUser7country5phone5email4nameySSSg_A3ItF",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateDeviceToken",
+            "printedName": "updateDeviceToken(token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos0aB0C17updateDeviceToken5tokenySS_tF",
+            "mangledName": "$s20XenoCommunicationIos0aB0C17updateDeviceToken5tokenySS_tF",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setNotificationPermission",
+            "printedName": "setNotificationPermission(hasPermission:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos0aB0C25setNotificationPermission03hasF0ySb_tF",
+            "mangledName": "$s20XenoCommunicationIos0aB0C25setNotificationPermission03hasF0ySb_tF",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onMessageReceived",
+            "printedName": "onMessageReceived(remoteMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : [Swift.String : Any]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos0aB0C17onMessageReceived06remoteE0ySDySSSDySSypGG_tF",
+            "mangledName": "$s20XenoCommunicationIos0aB0C17onMessageReceived06remoteE0ySDySSSDySSypGG_tF",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unsetUser",
+            "printedName": "unsetUser()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos0aB0C9unsetUseryyF",
+            "mangledName": "$s20XenoCommunicationIos0aB0C9unsetUseryyF",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20XenoCommunicationIos0aB0C",
+        "mangledName": "$s20XenoCommunicationIos0aB0C",
+        "moduleName": "XenoCommunicationIos",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "XenoCommunicationPlugin",
+            "printedName": "XenoCommunicationPlugin",
+            "usr": "s:20XenoCommunicationIos0aB6PluginP",
+            "mangledName": "$s20XenoCommunicationIos0aB6PluginP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "XenoCommunicationIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkClient",
+        "printedName": "NetworkClient",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "instance",
+            "printedName": "instance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkClient",
+                "printedName": "XenoCommunicationIos.NetworkClient",
+                "usr": "s:20XenoCommunicationIos13NetworkClientC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos13NetworkClientC8instanceACvpZ",
+            "mangledName": "$s20XenoCommunicationIos13NetworkClientC8instanceACvpZ",
+            "moduleName": "XenoCommunicationIos",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkClient",
+                    "printedName": "XenoCommunicationIos.NetworkClient",
+                    "usr": "s:20XenoCommunicationIos13NetworkClientC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos13NetworkClientC8instanceACvgZ",
+                "mangledName": "$s20XenoCommunicationIos13NetworkClientC8instanceACvgZ",
+                "moduleName": "XenoCommunicationIos",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "request",
+            "printedName": "request(endpoint:method:parameters:responseType:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<τ_0_0, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<τ_0_0, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos13NetworkClientC7request8endpoint6method10parameters12responseType10completionySS_SSSDySSypGSgxmys6ResultOyxs5Error_pGctSeRzlF",
+            "mangledName": "$s20XenoCommunicationIos13NetworkClientC7request8endpoint6method10parameters12responseType10completionySS_SSSDySSypGSgxmys6ResultOyxs5Error_pGctSeRzlF",
+            "moduleName": "XenoCommunicationIos",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20XenoCommunicationIos13NetworkClientC",
+        "mangledName": "$s20XenoCommunicationIos13NetworkClientC",
+        "moduleName": "XenoCommunicationIos",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "XenoCommunicationIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceTokenSubmitResponse",
+        "printedName": "DeviceTokenSubmitResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos25DeviceTokenSubmitResponseV7messageSSvp",
+            "mangledName": "$s20XenoCommunicationIos25DeviceTokenSubmitResponseV7messageSSvp",
+            "moduleName": "XenoCommunicationIos",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos25DeviceTokenSubmitResponseV7messageSSvg",
+                "mangledName": "$s20XenoCommunicationIos25DeviceTokenSubmitResponseV7messageSSvg",
+                "moduleName": "XenoCommunicationIos",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceTokenSubmitResponse",
+                "printedName": "XenoCommunicationIos.DeviceTokenSubmitResponse",
+                "usr": "s:20XenoCommunicationIos25DeviceTokenSubmitResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20XenoCommunicationIos25DeviceTokenSubmitResponseV7messageACSS_tcfc",
+            "mangledName": "$s20XenoCommunicationIos25DeviceTokenSubmitResponseV7messageACSS_tcfc",
+            "moduleName": "XenoCommunicationIos",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceTokenSubmitResponse",
+                "printedName": "XenoCommunicationIos.DeviceTokenSubmitResponse",
+                "usr": "s:20XenoCommunicationIos25DeviceTokenSubmitResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20XenoCommunicationIos25DeviceTokenSubmitResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s20XenoCommunicationIos25DeviceTokenSubmitResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "XenoCommunicationIos",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20XenoCommunicationIos25DeviceTokenSubmitResponseV",
+        "mangledName": "$s20XenoCommunicationIos25DeviceTokenSubmitResponseV",
+        "moduleName": "XenoCommunicationIos",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "XenoSDK",
+        "printedName": "XenoSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "instance",
+            "printedName": "instance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any XenoCommunicationIos.XenoCommunicationPlugin)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "XenoCommunicationPlugin",
+                    "printedName": "any XenoCommunicationIos.XenoCommunicationPlugin",
+                    "usr": "s:20XenoCommunicationIos0aB6PluginP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos0A3SDKC8instanceAA0aB6Plugin_pSgvpZ",
+            "mangledName": "$s20XenoCommunicationIos0A3SDKC8instanceAA0aB6Plugin_pSgvpZ",
+            "moduleName": "XenoCommunicationIos",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any XenoCommunicationIos.XenoCommunicationPlugin)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XenoCommunicationPlugin",
+                        "printedName": "any XenoCommunicationIos.XenoCommunicationPlugin",
+                        "usr": "s:20XenoCommunicationIos0aB6PluginP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos0A3SDKC8instanceAA0aB6Plugin_pSgvgZ",
+                "mangledName": "$s20XenoCommunicationIos0A3SDKC8instanceAA0aB6Plugin_pSgvgZ",
+                "moduleName": "XenoCommunicationIos",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialise",
+            "printedName": "initialise(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "XenoCommunicationPlugin",
+                "printedName": "any XenoCommunicationIos.XenoCommunicationPlugin",
+                "usr": "s:20XenoCommunicationIos0aB6PluginP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "XenoConfig",
+                "printedName": "XenoCommunicationIos.XenoConfig",
+                "usr": "s:20XenoCommunicationIos0A6ConfigV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos0A3SDKC10initialise6configAA0aB6Plugin_pAA0A6ConfigV_tFZ",
+            "mangledName": "$s20XenoCommunicationIos0A3SDKC10initialise6configAA0aB6Plugin_pAA0A6ConfigV_tFZ",
+            "moduleName": "XenoCommunicationIos",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20XenoCommunicationIos0A3SDKC",
+        "mangledName": "$s20XenoCommunicationIos0A3SDKC",
+        "moduleName": "XenoCommunicationIos",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "XenoConfig",
+        "printedName": "XenoConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "apiKey",
+            "printedName": "apiKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos0A6ConfigV6apiKeySSvp",
+            "mangledName": "$s20XenoCommunicationIos0A6ConfigV6apiKeySSvp",
+            "moduleName": "XenoCommunicationIos",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos0A6ConfigV6apiKeySSvg",
+                "mangledName": "$s20XenoCommunicationIos0A6ConfigV6apiKeySSvg",
+                "moduleName": "XenoCommunicationIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isProduction",
+            "printedName": "isProduction",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos0A6ConfigV12isProductionSbvp",
+            "mangledName": "$s20XenoCommunicationIos0A6ConfigV12isProductionSbvp",
+            "moduleName": "XenoCommunicationIos",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos0A6ConfigV12isProductionSbvg",
+                "mangledName": "$s20XenoCommunicationIos0A6ConfigV12isProductionSbvg",
+                "moduleName": "XenoCommunicationIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(apiKey:isProduction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "XenoConfig",
+                "printedName": "XenoCommunicationIos.XenoConfig",
+                "usr": "s:20XenoCommunicationIos0A6ConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20XenoCommunicationIos0A6ConfigV6apiKey12isProductionACSS_Sbtcfc",
+            "mangledName": "$s20XenoCommunicationIos0A6ConfigV6apiKey12isProductionACSS_Sbtcfc",
+            "moduleName": "XenoCommunicationIos",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20XenoCommunicationIos0A6ConfigV",
+        "mangledName": "$s20XenoCommunicationIos0A6ConfigV",
+        "moduleName": "XenoCommunicationIos",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "XenoCommunicationIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "XenoCommunicationPlugin",
+        "printedName": "XenoCommunicationPlugin",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "config",
+            "printedName": "config",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "XenoConfig",
+                "printedName": "XenoCommunicationIos.XenoConfig",
+                "usr": "s:20XenoCommunicationIos0A6ConfigV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos0aB6PluginP6configAA0A6ConfigVvp",
+            "mangledName": "$s20XenoCommunicationIos0aB6PluginP6configAA0A6ConfigVvp",
+            "moduleName": "XenoCommunicationIos",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "XenoConfig",
+                    "printedName": "XenoCommunicationIos.XenoConfig",
+                    "usr": "s:20XenoCommunicationIos0A6ConfigV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos0aB6PluginP6configAA0A6ConfigVvg",
+                "mangledName": "$s20XenoCommunicationIos0aB6PluginP6configAA0A6ConfigVvg",
+                "moduleName": "XenoCommunicationIos",
+                "genericSig": "<τ_0_0 where τ_0_0 : XenoCommunicationIos.XenoCommunicationPlugin>",
+                "sugared_genericSig": "<Self where Self : XenoCommunicationIos.XenoCommunicationPlugin>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "XenoConfig",
+                    "printedName": "XenoCommunicationIos.XenoConfig",
+                    "usr": "s:20XenoCommunicationIos0A6ConfigV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos0aB6PluginP6configAA0A6ConfigVvs",
+                "mangledName": "$s20XenoCommunicationIos0aB6PluginP6configAA0A6ConfigVvs",
+                "moduleName": "XenoCommunicationIos",
+                "genericSig": "<τ_0_0 where τ_0_0 : XenoCommunicationIos.XenoCommunicationPlugin>",
+                "sugared_genericSig": "<Self where Self : XenoCommunicationIos.XenoCommunicationPlugin>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos0aB6PluginP6configAA0A6ConfigVvM",
+                "mangledName": "$s20XenoCommunicationIos0aB6PluginP6configAA0A6ConfigVvM",
+                "moduleName": "XenoCommunicationIos",
+                "genericSig": "<τ_0_0 where τ_0_0 : XenoCommunicationIos.XenoCommunicationPlugin>",
+                "sugared_genericSig": "<Self where Self : XenoCommunicationIos.XenoCommunicationPlugin>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setUser",
+            "printedName": "setUser(country:phone:email:name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos0aB6PluginP7setUser7country5phone5email4nameySSSg_A3ItF",
+            "mangledName": "$s20XenoCommunicationIos0aB6PluginP7setUser7country5phone5email4nameySSSg_A3ItF",
+            "moduleName": "XenoCommunicationIos",
+            "genericSig": "<τ_0_0 where τ_0_0 : XenoCommunicationIos.XenoCommunicationPlugin>",
+            "sugared_genericSig": "<Self where Self : XenoCommunicationIos.XenoCommunicationPlugin>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateDeviceToken",
+            "printedName": "updateDeviceToken(token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos0aB6PluginP17updateDeviceToken5tokenySS_tF",
+            "mangledName": "$s20XenoCommunicationIos0aB6PluginP17updateDeviceToken5tokenySS_tF",
+            "moduleName": "XenoCommunicationIos",
+            "genericSig": "<τ_0_0 where τ_0_0 : XenoCommunicationIos.XenoCommunicationPlugin>",
+            "sugared_genericSig": "<Self where Self : XenoCommunicationIos.XenoCommunicationPlugin>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setNotificationPermission",
+            "printedName": "setNotificationPermission(hasPermission:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos0aB6PluginP25setNotificationPermission03hasG0ySb_tF",
+            "mangledName": "$s20XenoCommunicationIos0aB6PluginP25setNotificationPermission03hasG0ySb_tF",
+            "moduleName": "XenoCommunicationIos",
+            "genericSig": "<τ_0_0 where τ_0_0 : XenoCommunicationIos.XenoCommunicationPlugin>",
+            "sugared_genericSig": "<Self where Self : XenoCommunicationIos.XenoCommunicationPlugin>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onMessageReceived",
+            "printedName": "onMessageReceived(remoteMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : [Swift.String : Any]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos0aB6PluginP17onMessageReceived06remoteF0ySDySSSDySSypGG_tF",
+            "mangledName": "$s20XenoCommunicationIos0aB6PluginP17onMessageReceived06remoteF0ySDySSSDySSypGG_tF",
+            "moduleName": "XenoCommunicationIos",
+            "genericSig": "<τ_0_0 where τ_0_0 : XenoCommunicationIos.XenoCommunicationPlugin>",
+            "sugared_genericSig": "<Self where Self : XenoCommunicationIos.XenoCommunicationPlugin>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unsetUser",
+            "printedName": "unsetUser()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos0aB6PluginP9unsetUseryyF",
+            "mangledName": "$s20XenoCommunicationIos0aB6PluginP9unsetUseryyF",
+            "moduleName": "XenoCommunicationIos",
+            "genericSig": "<τ_0_0 where τ_0_0 : XenoCommunicationIos.XenoCommunicationPlugin>",
+            "sugared_genericSig": "<Self where Self : XenoCommunicationIos.XenoCommunicationPlugin>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:20XenoCommunicationIos0aB6PluginP",
+        "mangledName": "$s20XenoCommunicationIos0aB6PluginP",
+        "moduleName": "XenoCommunicationIos",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "XenoCommunicationIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "XenoCommunicationIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "XenoCore",
+        "printedName": "XenoCore",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "config",
+            "printedName": "config",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "XenoConfig",
+                "printedName": "XenoCommunicationIos.XenoConfig",
+                "usr": "s:20XenoCommunicationIos0A6ConfigV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos0A4CoreC6configAA0A6ConfigVvp",
+            "mangledName": "$s20XenoCommunicationIos0A4CoreC6configAA0A6ConfigVvp",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "XenoConfig",
+                    "printedName": "XenoCommunicationIos.XenoConfig",
+                    "usr": "s:20XenoCommunicationIos0A6ConfigV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos0A4CoreC6configAA0A6ConfigVvg",
+                "mangledName": "$s20XenoCommunicationIos0A4CoreC6configAA0A6ConfigVvg",
+                "moduleName": "XenoCommunicationIos",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "XenoConfig",
+                    "printedName": "XenoCommunicationIos.XenoConfig",
+                    "usr": "s:20XenoCommunicationIos0A6ConfigV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos0A4CoreC6configAA0A6ConfigVvs",
+                "mangledName": "$s20XenoCommunicationIos0A4CoreC6configAA0A6ConfigVvs",
+                "moduleName": "XenoCommunicationIos",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20XenoCommunicationIos0A4CoreC6configAA0A6ConfigVvM",
+                "mangledName": "$s20XenoCommunicationIos0A4CoreC6configAA0A6ConfigVvM",
+                "moduleName": "XenoCommunicationIos",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "coreRepository",
+            "printedName": "coreRepository",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CoreRepository",
+                "printedName": "XenoCommunicationIos.CoreRepository",
+                "usr": "s:20XenoCommunicationIos14CoreRepositoryC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos0A4CoreC14coreRepository33_7A45B38038986CFB311EAA7D835C6CA0LLAA0dF0Cvp",
+            "mangledName": "$s20XenoCommunicationIos0A4CoreC14coreRepository33_7A45B38038986CFB311EAA7D835C6CA0LLAA0dF0Cvp",
+            "moduleName": "XenoCommunicationIos",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "XenoCore",
+                "printedName": "XenoCommunicationIos.XenoCore",
+                "usr": "s:20XenoCommunicationIos0A4CoreC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "XenoConfig",
+                "printedName": "XenoCommunicationIos.XenoConfig",
+                "usr": "s:20XenoCommunicationIos0A6ConfigV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20XenoCommunicationIos0A4CoreC6configAcA0A6ConfigV_tcfc",
+            "mangledName": "$s20XenoCommunicationIos0A4CoreC6configAcA0A6ConfigV_tcfc",
+            "moduleName": "XenoCommunicationIos",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "initSdk",
+            "printedName": "initSdk()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos0A4CoreC7initSdkyyF",
+            "mangledName": "$s20XenoCommunicationIos0A4CoreC7initSdkyyF",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUser",
+            "printedName": "setUser(authUserRequest:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "XenoCommunicationIos.UserAuthRequest?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserAuthRequest",
+                    "printedName": "XenoCommunicationIos.UserAuthRequest",
+                    "usr": "s:20XenoCommunicationIos15UserAuthRequestV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos0A4CoreC7setUser04authF7RequestyAA0f4AuthH0VSg_tF",
+            "mangledName": "$s20XenoCommunicationIos0A4CoreC7setUser04authF7RequestyAA0f4AuthH0VSg_tF",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateDeviceToken",
+            "printedName": "updateDeviceToken(token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos0A4CoreC17updateDeviceToken5tokenySS_tF",
+            "mangledName": "$s20XenoCommunicationIos0A4CoreC17updateDeviceToken5tokenySS_tF",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateNotificationPermission",
+            "printedName": "updateNotificationPermission(hasPermission:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos0A4CoreC28updateNotificationPermission03hasG0ySb_tF",
+            "mangledName": "$s20XenoCommunicationIos0A4CoreC28updateNotificationPermission03hasG0ySb_tF",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onMessageReceived",
+            "printedName": "onMessageReceived(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : [Swift.String : Any]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos0A4CoreC17onMessageReceived7messageySDySSSDySSypGG_tF",
+            "mangledName": "$s20XenoCommunicationIos0A4CoreC17onMessageReceived7messageySDySSSDySSypGG_tF",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unsetUser",
+            "printedName": "unsetUser()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20XenoCommunicationIos0A4CoreC9unsetUseryyF",
+            "mangledName": "$s20XenoCommunicationIos0A4CoreC9unsetUseryyF",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20XenoCommunicationIos0A4CoreC",
+        "mangledName": "$s20XenoCommunicationIos0A4CoreC",
+        "moduleName": "XenoCommunicationIos",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "XenoCommunicationIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AuthInterceptor",
+        "printedName": "AuthInterceptor",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "retryCounter",
+            "printedName": "retryCounter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos15AuthInterceptorC12retryCounter33_008E4C237A0F43DF3CF46FBA1C7012DDLLSivp",
+            "mangledName": "$s20XenoCommunicationIos15AuthInterceptorC12retryCounter33_008E4C237A0F43DF3CF46FBA1C7012DDLLSivp",
+            "moduleName": "XenoCommunicationIos",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "deviceId",
+            "printedName": "deviceId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos15AuthInterceptorC8deviceId33_008E4C237A0F43DF3CF46FBA1C7012DDLLSSvp",
+            "mangledName": "$s20XenoCommunicationIos15AuthInterceptorC8deviceId33_008E4C237A0F43DF3CF46FBA1C7012DDLLSSvp",
+            "moduleName": "XenoCommunicationIos",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "dataTask",
+            "printedName": "dataTask",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URLSessionDataTask?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLSessionDataTask",
+                    "printedName": "Foundation.URLSessionDataTask",
+                    "usr": "c:objc(cs)NSURLSessionDataTask"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos15AuthInterceptorC8dataTask33_008E4C237A0F43DF3CF46FBA1C7012DDLLSo016NSURLSessionDataG0CSgvp",
+            "mangledName": "$s20XenoCommunicationIos15AuthInterceptorC8dataTask33_008E4C237A0F43DF3CF46FBA1C7012DDLLSo016NSURLSessionDataG0CSgvp",
+            "moduleName": "XenoCommunicationIos",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true
+          },
+          {
+            "kind": "Function",
+            "name": "canInit",
+            "printedName": "canInit(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@XenoCommunicationIos@objc(cs)AuthInterceptor(cm)canInitWithRequest:",
+            "mangledName": "$s20XenoCommunicationIos15AuthInterceptorC7canInit4withSb10Foundation10URLRequestV_tFZ",
+            "moduleName": "XenoCommunicationIos",
+            "static": true,
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "canInitWithRequest:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startLoading",
+            "printedName": "startLoading()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@XenoCommunicationIos@objc(cs)AuthInterceptor(im)startLoading",
+            "mangledName": "$s20XenoCommunicationIos15AuthInterceptorC12startLoadingyyF",
+            "moduleName": "XenoCommunicationIos",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "startLoading",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopLoading",
+            "printedName": "stopLoading()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@XenoCommunicationIos@objc(cs)AuthInterceptor(im)stopLoading",
+            "mangledName": "$s20XenoCommunicationIos15AuthInterceptorC11stopLoadingyyF",
+            "moduleName": "XenoCommunicationIos",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "stopLoading",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "canonicalRequest",
+            "printedName": "canonicalRequest(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@XenoCommunicationIos@objc(cs)AuthInterceptor(cm)canonicalRequestForRequest:",
+            "mangledName": "$s20XenoCommunicationIos15AuthInterceptorC16canonicalRequest3for10Foundation10URLRequestVAH_tFZ",
+            "moduleName": "XenoCommunicationIos",
+            "static": true,
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "canonicalRequestForRequest:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(request:cachedResponse:client:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AuthInterceptor",
+                "printedName": "XenoCommunicationIos.AuthInterceptor",
+                "usr": "c:@M@XenoCommunicationIos@objc(cs)AuthInterceptor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.CachedURLResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CachedURLResponse",
+                    "printedName": "Foundation.CachedURLResponse",
+                    "usr": "c:objc(cs)NSCachedURLResponse"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Foundation.URLProtocolClient)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLProtocolClient",
+                    "printedName": "any Foundation.URLProtocolClient",
+                    "usr": "c:objc(pl)NSURLProtocolClient"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@XenoCommunicationIos@objc(cs)AuthInterceptor(im)initWithRequest:cachedResponse:client:",
+            "mangledName": "$s20XenoCommunicationIos15AuthInterceptorC7request14cachedResponse6clientAC10Foundation10URLRequestV_So19NSCachedURLResponseCSgSo19NSURLProtocolClient_pSgtcfc",
+            "moduleName": "XenoCommunicationIos",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithRequest:cachedResponse:client:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@XenoCommunicationIos@objc(cs)AuthInterceptor",
+        "mangledName": "$s20XenoCommunicationIos15AuthInterceptorC",
+        "moduleName": "XenoCommunicationIos",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSURLProtocol",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Foundation.URLProtocol",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLRequest",
+        "printedName": "URLRequest",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "newRequest",
+            "printedName": "newRequest(token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Foundation10URLRequestV20XenoCommunicationIosE10newRequest5tokenACSS_tF",
+            "mangledName": "$s10Foundation10URLRequestV20XenoCommunicationIosE10newRequest5tokenACSS_tF",
+            "moduleName": "XenoCommunicationIos",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10Foundation10URLRequestV",
+        "mangledName": "$s10Foundation10URLRequestV",
+        "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ReferenceConvertible",
+            "printedName": "ReferenceConvertible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReferenceType",
+                "printedName": "ReferenceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSURLRequest",
+                    "printedName": "Foundation.NSURLRequest",
+                    "usr": "c:objc(cs)NSURLRequest"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation20ReferenceConvertibleP",
+            "mangledName": "$s10Foundation20ReferenceConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSURLRequest",
+                    "printedName": "Foundation.NSURLRequest",
+                    "usr": "c:objc(cs)NSURLRequest"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLSession",
+        "printedName": "URLSession",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "synchronousDataTask",
+            "printedName": "synchronousDataTask(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(data: Foundation.Data, response: Foundation.URLResponse)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLResponse",
+                    "printedName": "Foundation.URLResponse",
+                    "usr": "c:objc(cs)NSURLResponse"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So12NSURLSessionC20XenoCommunicationIosE19synchronousDataTask4with10Foundation0F0V4data_So13NSURLResponseC8responsetAF10URLRequestV_tF",
+            "mangledName": "$sSo12NSURLSessionC20XenoCommunicationIosE19synchronousDataTask4with10Foundation0F0V4data_So13NSURLResponseC8responsetAF10URLRequestV_tF",
+            "moduleName": "XenoCommunicationIos",
+            "isOpen": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSURLSession",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "intro_iOS": "7.0",
+        "objc_name": "NSURLSession",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/kshivam1177\/Downloads\/tech\/xeno\/notifications\/XenoSDK\/XenoCommunicationIos\/XenoCommunicationIos\/db\/AppKeychainManager.swift",
+      "kind": "StringLiteral",
+      "offset": 184,
+      "length": 27,
+      "value": "\"xeno-access-token-service\""
+    },
+    {
+      "filePath": "\/Users\/kshivam1177\/Downloads\/tech\/xeno\/notifications\/XenoSDK\/XenoCommunicationIos\/XenoCommunicationIos\/db\/AppKeychainManager.swift",
+      "kind": "StringLiteral",
+      "offset": 234,
+      "length": 26,
+      "value": "\"xeno-device-auth-account\""
+    },
+    {
+      "filePath": "\/Users\/kshivam1177\/Downloads\/tech\/xeno\/notifications\/XenoSDK\/XenoCommunicationIos\/XenoCommunicationIos\/db\/CacheManager.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kshivam1177\/Downloads\/tech\/xeno\/notifications\/XenoSDK\/XenoCommunicationIos\/XenoCommunicationIos\/db\/CacheManager.swift",
+      "kind": "StringLiteral",
+      "offset": 354,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kshivam1177\/Downloads\/tech\/xeno\/notifications\/XenoSDK\/XenoCommunicationIos\/XenoCommunicationIos\/db\/CacheManager.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kshivam1177\/Downloads\/tech\/xeno\/notifications\/XenoSDK\/XenoCommunicationIos\/XenoCommunicationIos\/db\/CacheManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 537,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kshivam1177\/Downloads\/tech\/xeno\/notifications\/XenoSDK\/XenoCommunicationIos\/XenoCommunicationIos\/network\/NetworkClient.swift",
+      "kind": "Dictionary",
+      "offset": 197,
+      "length": 110,
+      "value": "[(\"prod\", \"https:\/\/communication.xeno.in\/\"), (\"dev\", \"https:\/\/communication.dev.xeno.in\/\")]"
+    },
+    {
+      "filePath": "\/Users\/kshivam1177\/Downloads\/tech\/xeno\/notifications\/XenoSDK\/XenoCommunicationIos\/XenoCommunicationIos\/network\/AuthInterceptor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 192,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}

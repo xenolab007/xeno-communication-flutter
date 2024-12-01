@@ -1,0 +1,6 @@
+framework module XenoCommunicationIos {
+  umbrella header "XenoCommunicationIos.h"
+  export *
+
+  module * { export * }
+}

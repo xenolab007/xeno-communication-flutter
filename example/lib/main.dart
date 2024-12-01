@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:xeno_communication_flutter/xeno_communication_flutter.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,21 +13,23 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  // final _xenoPlugin = XenoCommunicationFlutter();
+  final _xenoPlugin = XenoCommunicationFlutter();
 
   @override
   void initState() {
     super.initState();
-    // _xenoPlugin.sdkInit("apiKey");
-    // _xenoPlugin.setUser(
-    //   phone: "phone",
-    //   email: "email",
-    //   countryCode: "countryCode",
-    //   name: "name",
-    // );
-    // _xenoPlugin.onTokenReceived("deviceToken");
-    // _xenoPlugin.onMessageReceived({"key": "value"});
-    // _xenoPlugin.unsetUser();
+    init();
+  }
+
+  Future<dynamic> init() async {
+    await _xenoPlugin.sdkInit("zsdbha795t", isProduction: false);
+    await _xenoPlugin.setUser(
+      phone: "9999999999",
+      email: "",
+      countryCode: "+91",
+      name: "",
+    );
+    await _xenoPlugin.requestNotificationPermission();
   }
 
   @override

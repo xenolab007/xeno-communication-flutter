@@ -1,0 +1,28 @@
+PODS:
+  - Flutter (1.0.0)
+  - integration_test (0.0.1):
+    - Flutter
+  - xeno_communication_flutter (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - xeno_communication_flutter (from `.symlinks/plugins/xeno_communication_flutter/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  xeno_communication_flutter:
+    :path: ".symlinks/plugins/xeno_communication_flutter/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  integration_test: 252f60fa39af5e17c3aa9899d35d908a0721b573
+  xeno_communication_flutter: 1bbeff790d13e8e9f73292fe94edfbc1ecbdde36
+
+PODFILE CHECKSUM: 3c6a4b1c4d7167b719844ca2ccb4304e831e16ef
+
+COCOAPODS: 1.15.2
