@@ -34,12 +34,14 @@ public class XenoCommunicationFlutterPlugin: NSObject, FlutterPlugin {
         let email = args["email"] as? String?
         let name = args["name"] as? String?
         
-        XenoSDK.instance?.setUser(country: countryCode ?? "",
-                                  phone: phone ?? "",
-                                  email: email ?? "",
-                                  name: name ?? "")
+            XenoSDK.instance?.setUser(country: countryCode ?? "",
+                                      phone: phone ?? "",
+                                      email: email ?? "",
+                                      name: name ?? "") { resultData in
+               
+                result(true)
+            }
         
-        result(true)
     
     case "update-device-token":
         
@@ -48,10 +50,14 @@ public class XenoCommunicationFlutterPlugin: NSObject, FlutterPlugin {
         print("deviceToken : \(String(describing: deviceToken))")
         
         if ( deviceToken != nil ){
-            XenoSDK.instance?.updateDeviceToken(token: deviceToken!!)
+            XenoSDK.instance?.updateDeviceToken(token: deviceToken!!) { resultData in
+               
+                result(true)
+                return
+            }
         }
         
-        result(true)
+        result(false)
         
         
     case "request-notification-permission":
@@ -60,15 +66,21 @@ public class XenoCommunicationFlutterPlugin: NSObject, FlutterPlugin {
         
         let options: UNAuthorizationOptions = [.alert, .sound, .badge]
         UNUserNotificationCenter.current().requestAuthorization(options: options) { (granted, error) in
-           if granted {
-               XenoSDK.instance?.setNotificationPermission(hasPermission: true)
-               print("Permission for push notifications allowed!")
-           } else {
-               XenoSDK.instance?.setNotificationPermission(hasPermission: false)
-               print("Permission for push notifications denied.")
-           }
+            if granted {
+                XenoSDK.instance?.setNotificationPermission(hasPermission: true) { resultData in
+                    
+                    result(true)
+                }
+                print("Permission for push notifications allowed!")
+            } else {
+                XenoSDK.instance?.setNotificationPermission(hasPermission: false) {
+                    resultData in
+                    
+                    result(false)
+                    print("Permission for push notifications denied.")
+                }
+            }
         }
-        result(true)
         
     case "on-message-received":
         
@@ -77,8 +89,10 @@ public class XenoCommunicationFlutterPlugin: NSObject, FlutterPlugin {
                 // Deserialize into [String: [String: Any]] type
                 if let jsonObj = try JSONSerialization.jsonObject(with: jsonData, options: []) as? [String: [String: Any]] {
                     print(jsonObj)
-                    XenoSDK.instance?.onMessageReceived(remoteMessage: jsonObj)
-                    result(true)
+                    XenoSDK.instance?.onMessageReceived(remoteMessage: jsonObj) { resultData in
+                       
+                        result(true)
+                    }
                 } else {
                     print("Failed to parse JSON into [String: [String: Any]]")
                     result(false)
@@ -93,9 +107,12 @@ public class XenoCommunicationFlutterPlugin: NSObject, FlutterPlugin {
         
         print("unset-user ")
         
-        XenoSDK.instance?.unsetUser()
-        
-        result(true)
+            
+        XenoSDK.instance?.unsetUser { resultData in
+           
+            result(true)
+        }
+
        
     default:
       result(FlutterMethodNotImplemented)

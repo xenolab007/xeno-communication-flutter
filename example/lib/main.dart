@@ -22,7 +22,9 @@ class _MyAppState extends State<MyApp> {
   }
 
   Future<dynamic> init() async {
-    await _xenoPlugin.sdkInit("zsdbha795t", isProduction: false);
+    await _xenoPlugin.sdkInit("zsdbha795t", isProduction: true);
+
+    await Future.delayed(const Duration(seconds: 10));
     await _xenoPlugin.setUser(
       phone: "9999999999",
       email: "",

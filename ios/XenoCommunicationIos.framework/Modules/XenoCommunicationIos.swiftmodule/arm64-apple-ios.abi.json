@@ -54,8 +54,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:20XenoCommunicationIos14CoreRepositoryC15authenticateSdk11authRequestAA11ApiResponseVyAA0G8AuthDataVGSgAA0glI0V_tYaKF",
-            "mangledName": "$s20XenoCommunicationIos14CoreRepositoryC15authenticateSdk11authRequestAA11ApiResponseVyAA0G8AuthDataVGSgAA0glI0V_tYaKF",
+            "usr": "s:20XenoCommunicationIos14CoreRepositoryC15authenticateSdk11authRequestAA11ApiResponseVyAA0G8AuthDataVGSgAA0glI0V_tKF",
+            "mangledName": "$s20XenoCommunicationIos14CoreRepositoryC15authenticateSdk11authRequestAA11ApiResponseVyAA0G8AuthDataVGSgAA0glI0V_tKF",
             "moduleName": "XenoCommunicationIos",
             "isOpen": true,
             "throwing": true,
@@ -96,8 +96,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:20XenoCommunicationIos14CoreRepositoryC16authenticateUser04authG7RequestAA11ApiResponseVyAA04AuthgK4DataVGSgAA0glI0V_tYaKF",
-            "mangledName": "$s20XenoCommunicationIos14CoreRepositoryC16authenticateUser04authG7RequestAA11ApiResponseVyAA04AuthgK4DataVGSgAA0glI0V_tYaKF",
+            "usr": "s:20XenoCommunicationIos14CoreRepositoryC16authenticateUser04authG7RequestAA11ApiResponseVyAA04AuthgK4DataVGSgAA0glI0V_tKF",
+            "mangledName": "$s20XenoCommunicationIos14CoreRepositoryC16authenticateUser04authG7RequestAA11ApiResponseVyAA04AuthgK4DataVGSgAA0glI0V_tKF",
             "moduleName": "XenoCommunicationIos",
             "isOpen": true,
             "throwing": true,
@@ -138,8 +138,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:20XenoCommunicationIos14CoreRepositoryC17updatedeviceToken06deviceG0AA11ApiResponseVyAA06Deviceg6SubmitJ0VGSgSS_tYaKF",
-            "mangledName": "$s20XenoCommunicationIos14CoreRepositoryC17updatedeviceToken06deviceG0AA11ApiResponseVyAA06Deviceg6SubmitJ0VGSgSS_tYaKF",
+            "usr": "s:20XenoCommunicationIos14CoreRepositoryC17updatedeviceToken06deviceG0AA11ApiResponseVyAA06Deviceg6SubmitJ0VGSgSS_tKF",
+            "mangledName": "$s20XenoCommunicationIos14CoreRepositoryC17updatedeviceToken06deviceG0AA11ApiResponseVyAA06Deviceg6SubmitJ0VGSgSS_tKF",
             "moduleName": "XenoCommunicationIos",
             "isOpen": true,
             "throwing": true,
@@ -180,8 +180,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:20XenoCommunicationIos14CoreRepositoryC28updateNotificationPermission03hasH0AA11ApiResponseVyAA017DeviceTokenSubmitK0VGSgSb_tYaKF",
-            "mangledName": "$s20XenoCommunicationIos14CoreRepositoryC28updateNotificationPermission03hasH0AA11ApiResponseVyAA017DeviceTokenSubmitK0VGSgSb_tYaKF",
+            "usr": "s:20XenoCommunicationIos14CoreRepositoryC28updateNotificationPermission03hasH0AA11ApiResponseVyAA017DeviceTokenSubmitK0VGSgSb_tKF",
+            "mangledName": "$s20XenoCommunicationIos14CoreRepositoryC28updateNotificationPermission03hasH0AA11ApiResponseVyAA017DeviceTokenSubmitK0VGSgSb_tKF",
             "moduleName": "XenoCommunicationIos",
             "isOpen": true,
             "throwing": true,
@@ -222,8 +222,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:20XenoCommunicationIos14CoreRepositoryC9unsetUser9sessionIdAA11ApiResponseVyAA05UnsetgK4DataVGSgSS_tYaKF",
-            "mangledName": "$s20XenoCommunicationIos14CoreRepositoryC9unsetUser9sessionIdAA11ApiResponseVyAA05UnsetgK4DataVGSgSS_tYaKF",
+            "usr": "s:20XenoCommunicationIos14CoreRepositoryC9unsetUser9sessionIdAA11ApiResponseVyAA05UnsetgK4DataVGSgSS_tKF",
+            "mangledName": "$s20XenoCommunicationIos14CoreRepositoryC9unsetUser9sessionIdAA11ApiResponseVyAA05UnsetgK4DataVGSgSS_tKF",
             "moduleName": "XenoCommunicationIos",
             "isOpen": true,
             "throwing": true,
@@ -1499,8 +1499,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:20XenoCommunicationIos12CacheManagerC9reAuthSdkSSyYaKF",
-            "mangledName": "$s20XenoCommunicationIos12CacheManagerC9reAuthSdkSSyYaKF",
+            "usr": "s:20XenoCommunicationIos12CacheManagerC9reAuthSdkSSyKF",
+            "mangledName": "$s20XenoCommunicationIos12CacheManagerC9reAuthSdkSSyKF",
             "moduleName": "XenoCommunicationIos",
             "isOpen": true,
             "throwing": true,
@@ -1519,8 +1519,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:20XenoCommunicationIos12CacheManagerC10reAuthUserSSyYaKF",
-            "mangledName": "$s20XenoCommunicationIos12CacheManagerC10reAuthUserSSyYaKF",
+            "usr": "s:20XenoCommunicationIos12CacheManagerC10reAuthUserSSyKF",
+            "mangledName": "$s20XenoCommunicationIos12CacheManagerC10reAuthUserSSyKF",
             "moduleName": "XenoCommunicationIos",
             "isOpen": true,
             "throwing": true,
@@ -2759,7 +2759,7 @@
           {
             "kind": "Function",
             "name": "setUser",
-            "printedName": "setUser(country:phone:email:name:)",
+            "printedName": "setUser(country:phone:email:name:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2821,11 +2821,43 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:20XenoCommunicationIos0aB0C7setUser7country5phone5email4nameySSSg_A3ItF",
-            "mangledName": "$s20XenoCommunicationIos0aB0C7setUser7country5phone5email4nameySSSg_A3ItF",
+            "usr": "s:20XenoCommunicationIos0aB0C7setUser7country5phone5email4name10completionySSSg_A3Jys6ResultOySbs5Error_pGctF",
+            "mangledName": "$s20XenoCommunicationIos0aB0C7setUser7country5phone5email4name10completionySSSg_A3Jys6ResultOySbs5Error_pGctF",
             "moduleName": "XenoCommunicationIos",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
@@ -2833,7 +2865,7 @@
           {
             "kind": "Function",
             "name": "updateDeviceToken",
-            "printedName": "updateDeviceToken(token:)",
+            "printedName": "updateDeviceToken(token:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2845,11 +2877,43 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:20XenoCommunicationIos0aB0C17updateDeviceToken5tokenySS_tF",
-            "mangledName": "$s20XenoCommunicationIos0aB0C17updateDeviceToken5tokenySS_tF",
+            "usr": "s:20XenoCommunicationIos0aB0C17updateDeviceToken5token10completionySS_ys6ResultOySbs5Error_pGctF",
+            "mangledName": "$s20XenoCommunicationIos0aB0C17updateDeviceToken5token10completionySS_ys6ResultOySbs5Error_pGctF",
             "moduleName": "XenoCommunicationIos",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
@@ -2857,7 +2921,7 @@
           {
             "kind": "Function",
             "name": "setNotificationPermission",
-            "printedName": "setNotificationPermission(hasPermission:)",
+            "printedName": "setNotificationPermission(hasPermission:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2869,11 +2933,43 @@
                 "name": "Bool",
                 "printedName": "Swift.Bool",
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:20XenoCommunicationIos0aB0C25setNotificationPermission03hasF0ySb_tF",
-            "mangledName": "$s20XenoCommunicationIos0aB0C25setNotificationPermission03hasF0ySb_tF",
+            "usr": "s:20XenoCommunicationIos0aB0C25setNotificationPermission03hasF010completionySb_ys6ResultOySbs5Error_pGctF",
+            "mangledName": "$s20XenoCommunicationIos0aB0C25setNotificationPermission03hasF010completionySb_ys6ResultOySbs5Error_pGctF",
             "moduleName": "XenoCommunicationIos",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
@@ -2881,7 +2977,7 @@
           {
             "kind": "Function",
             "name": "onMessageReceived",
-            "printedName": "onMessageReceived(remoteMessage:)",
+            "printedName": "onMessageReceived(remoteMessage:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2920,11 +3016,43 @@
                   }
                 ],
                 "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:20XenoCommunicationIos0aB0C17onMessageReceived06remoteE0ySDySSSDySSypGG_tF",
-            "mangledName": "$s20XenoCommunicationIos0aB0C17onMessageReceived06remoteE0ySDySSSDySSypGG_tF",
+            "usr": "s:20XenoCommunicationIos0aB0C17onMessageReceived06remoteE010completionySDySSSDySSypGG_ys6ResultOySbs5Error_pGctF",
+            "mangledName": "$s20XenoCommunicationIos0aB0C17onMessageReceived06remoteE010completionySDySSSDySSypGG_ys6ResultOySbs5Error_pGctF",
             "moduleName": "XenoCommunicationIos",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
@@ -2932,17 +3060,49 @@
           {
             "kind": "Function",
             "name": "unsetUser",
-            "printedName": "unsetUser()",
+            "printedName": "unsetUser(completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:20XenoCommunicationIos0aB0C9unsetUseryyF",
-            "mangledName": "$s20XenoCommunicationIos0aB0C9unsetUseryyF",
+            "usr": "s:20XenoCommunicationIos0aB0C9unsetUser10completionyys6ResultOySbs5Error_pGc_tF",
+            "mangledName": "$s20XenoCommunicationIos0aB0C9unsetUser10completionyys6ResultOySbs5Error_pGc_tF",
             "moduleName": "XenoCommunicationIos",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
@@ -3035,12 +3195,12 @@
           {
             "kind": "Function",
             "name": "request",
-            "printedName": "request(endpoint:method:parameters:responseType:completion:)",
+            "printedName": "request(endpoint:method:parameters:responseType:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
               },
               {
                 "kind": "TypeNominal",
@@ -3093,42 +3253,11 @@
                     "printedName": "τ_0_0"
                   }
                 ]
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<τ_0_0, any Swift.Error>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<τ_0_0, any Swift.Error>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_0_0"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:20XenoCommunicationIos13NetworkClientC7request8endpoint6method10parameters12responseType10completionySS_SSSDySSypGSgxmys6ResultOyxs5Error_pGctSeRzlF",
-            "mangledName": "$s20XenoCommunicationIos13NetworkClientC7request8endpoint6method10parameters12responseType10completionySS_SSSDySSypGSgxmys6ResultOyxs5Error_pGctSeRzlF",
+            "usr": "s:20XenoCommunicationIos13NetworkClientC7request8endpoint6method10parameters12responseTypexSS_SSSDySSypGSgxmtKSeRzlF",
+            "mangledName": "$s20XenoCommunicationIos13NetworkClientC7request8endpoint6method10parameters12responseTypexSS_SSSDySSypGSgxmtKSeRzlF",
             "moduleName": "XenoCommunicationIos",
             "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
             "sugared_genericSig": "<T where T : Swift.Decodable>",
@@ -3136,6 +3265,7 @@
             "declAttributes": [
               "RawDocComment"
             ],
+            "throwing": true,
             "funcSelfKind": "NonMutating"
           }
         ],
@@ -3670,7 +3800,7 @@
           {
             "kind": "Function",
             "name": "setUser",
-            "printedName": "setUser(country:phone:email:name:)",
+            "printedName": "setUser(country:phone:email:name:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3732,11 +3862,43 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:20XenoCommunicationIos0aB6PluginP7setUser7country5phone5email4nameySSSg_A3ItF",
-            "mangledName": "$s20XenoCommunicationIos0aB6PluginP7setUser7country5phone5email4nameySSSg_A3ItF",
+            "usr": "s:20XenoCommunicationIos0aB6PluginP7setUser7country5phone5email4name10completionySSSg_A3Jys6ResultOySbs5Error_pGctF",
+            "mangledName": "$s20XenoCommunicationIos0aB6PluginP7setUser7country5phone5email4name10completionySSSg_A3Jys6ResultOySbs5Error_pGctF",
             "moduleName": "XenoCommunicationIos",
             "genericSig": "<τ_0_0 where τ_0_0 : XenoCommunicationIos.XenoCommunicationPlugin>",
             "sugared_genericSig": "<Self where Self : XenoCommunicationIos.XenoCommunicationPlugin>",
@@ -3750,7 +3912,7 @@
           {
             "kind": "Function",
             "name": "updateDeviceToken",
-            "printedName": "updateDeviceToken(token:)",
+            "printedName": "updateDeviceToken(token:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3762,11 +3924,43 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:20XenoCommunicationIos0aB6PluginP17updateDeviceToken5tokenySS_tF",
-            "mangledName": "$s20XenoCommunicationIos0aB6PluginP17updateDeviceToken5tokenySS_tF",
+            "usr": "s:20XenoCommunicationIos0aB6PluginP17updateDeviceToken5token10completionySS_ys6ResultOySbs5Error_pGctF",
+            "mangledName": "$s20XenoCommunicationIos0aB6PluginP17updateDeviceToken5token10completionySS_ys6ResultOySbs5Error_pGctF",
             "moduleName": "XenoCommunicationIos",
             "genericSig": "<τ_0_0 where τ_0_0 : XenoCommunicationIos.XenoCommunicationPlugin>",
             "sugared_genericSig": "<Self where Self : XenoCommunicationIos.XenoCommunicationPlugin>",
@@ -3780,7 +3974,7 @@
           {
             "kind": "Function",
             "name": "setNotificationPermission",
-            "printedName": "setNotificationPermission(hasPermission:)",
+            "printedName": "setNotificationPermission(hasPermission:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3792,11 +3986,43 @@
                 "name": "Bool",
                 "printedName": "Swift.Bool",
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:20XenoCommunicationIos0aB6PluginP25setNotificationPermission03hasG0ySb_tF",
-            "mangledName": "$s20XenoCommunicationIos0aB6PluginP25setNotificationPermission03hasG0ySb_tF",
+            "usr": "s:20XenoCommunicationIos0aB6PluginP25setNotificationPermission03hasG010completionySb_ys6ResultOySbs5Error_pGctF",
+            "mangledName": "$s20XenoCommunicationIos0aB6PluginP25setNotificationPermission03hasG010completionySb_ys6ResultOySbs5Error_pGctF",
             "moduleName": "XenoCommunicationIos",
             "genericSig": "<τ_0_0 where τ_0_0 : XenoCommunicationIos.XenoCommunicationPlugin>",
             "sugared_genericSig": "<Self where Self : XenoCommunicationIos.XenoCommunicationPlugin>",
@@ -3810,7 +4036,7 @@
           {
             "kind": "Function",
             "name": "onMessageReceived",
-            "printedName": "onMessageReceived(remoteMessage:)",
+            "printedName": "onMessageReceived(remoteMessage:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3849,11 +4075,43 @@
                   }
                 ],
                 "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:20XenoCommunicationIos0aB6PluginP17onMessageReceived06remoteF0ySDySSSDySSypGG_tF",
-            "mangledName": "$s20XenoCommunicationIos0aB6PluginP17onMessageReceived06remoteF0ySDySSSDySSypGG_tF",
+            "usr": "s:20XenoCommunicationIos0aB6PluginP17onMessageReceived06remoteF010completionySDySSSDySSypGG_ys6ResultOySbs5Error_pGctF",
+            "mangledName": "$s20XenoCommunicationIos0aB6PluginP17onMessageReceived06remoteF010completionySDySSSDySSypGG_ys6ResultOySbs5Error_pGctF",
             "moduleName": "XenoCommunicationIos",
             "genericSig": "<τ_0_0 where τ_0_0 : XenoCommunicationIos.XenoCommunicationPlugin>",
             "sugared_genericSig": "<Self where Self : XenoCommunicationIos.XenoCommunicationPlugin>",
@@ -3867,17 +4125,49 @@
           {
             "kind": "Function",
             "name": "unsetUser",
-            "printedName": "unsetUser()",
+            "printedName": "unsetUser(completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:20XenoCommunicationIos0aB6PluginP9unsetUseryyF",
-            "mangledName": "$s20XenoCommunicationIos0aB6PluginP9unsetUseryyF",
+            "usr": "s:20XenoCommunicationIos0aB6PluginP9unsetUser10completionyys6ResultOySbs5Error_pGc_tF",
+            "mangledName": "$s20XenoCommunicationIos0aB6PluginP9unsetUser10completionyys6ResultOySbs5Error_pGc_tF",
             "moduleName": "XenoCommunicationIos",
             "genericSig": "<τ_0_0 where τ_0_0 : XenoCommunicationIos.XenoCommunicationPlugin>",
             "sugared_genericSig": "<Self where Self : XenoCommunicationIos.XenoCommunicationPlugin>",
@@ -4074,17 +4364,49 @@
           {
             "kind": "Function",
             "name": "initSdk",
-            "printedName": "initSdk()",
+            "printedName": "initSdk(completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:20XenoCommunicationIos0A4CoreC7initSdkyyF",
-            "mangledName": "$s20XenoCommunicationIos0A4CoreC7initSdkyyF",
+            "usr": "s:20XenoCommunicationIos0A4CoreC7initSdk10completionyys6ResultOySbs5Error_pGc_tF",
+            "mangledName": "$s20XenoCommunicationIos0A4CoreC7initSdk10completionyys6ResultOySbs5Error_pGc_tF",
             "moduleName": "XenoCommunicationIos",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
@@ -4092,7 +4414,7 @@
           {
             "kind": "Function",
             "name": "setUser",
-            "printedName": "setUser(authUserRequest:)",
+            "printedName": "setUser(authUserRequest:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4112,11 +4434,43 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:20XenoCommunicationIos0A4CoreC7setUser04authF7RequestyAA0f4AuthH0VSg_tF",
-            "mangledName": "$s20XenoCommunicationIos0A4CoreC7setUser04authF7RequestyAA0f4AuthH0VSg_tF",
+            "usr": "s:20XenoCommunicationIos0A4CoreC7setUser04authF7Request10completionyAA0f4AuthH0VSg_ys6ResultOySbs5Error_pGctF",
+            "mangledName": "$s20XenoCommunicationIos0A4CoreC7setUser04authF7Request10completionyAA0f4AuthH0VSg_ys6ResultOySbs5Error_pGctF",
             "moduleName": "XenoCommunicationIos",
             "isOpen": true,
             "declAttributes": [
@@ -4127,7 +4481,7 @@
           {
             "kind": "Function",
             "name": "updateDeviceToken",
-            "printedName": "updateDeviceToken(token:)",
+            "printedName": "updateDeviceToken(token:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4139,11 +4493,43 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:20XenoCommunicationIos0A4CoreC17updateDeviceToken5tokenySS_tF",
-            "mangledName": "$s20XenoCommunicationIos0A4CoreC17updateDeviceToken5tokenySS_tF",
+            "usr": "s:20XenoCommunicationIos0A4CoreC17updateDeviceToken5token10completionySS_ys6ResultOySbs5Error_pGctF",
+            "mangledName": "$s20XenoCommunicationIos0A4CoreC17updateDeviceToken5token10completionySS_ys6ResultOySbs5Error_pGctF",
             "moduleName": "XenoCommunicationIos",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
@@ -4151,7 +4537,7 @@
           {
             "kind": "Function",
             "name": "updateNotificationPermission",
-            "printedName": "updateNotificationPermission(hasPermission:)",
+            "printedName": "updateNotificationPermission(hasPermission:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4163,11 +4549,43 @@
                 "name": "Bool",
                 "printedName": "Swift.Bool",
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:20XenoCommunicationIos0A4CoreC28updateNotificationPermission03hasG0ySb_tF",
-            "mangledName": "$s20XenoCommunicationIos0A4CoreC28updateNotificationPermission03hasG0ySb_tF",
+            "usr": "s:20XenoCommunicationIos0A4CoreC28updateNotificationPermission03hasG010completionySb_ys6ResultOySbs5Error_pGctF",
+            "mangledName": "$s20XenoCommunicationIos0A4CoreC28updateNotificationPermission03hasG010completionySb_ys6ResultOySbs5Error_pGctF",
             "moduleName": "XenoCommunicationIos",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
@@ -4175,7 +4593,7 @@
           {
             "kind": "Function",
             "name": "onMessageReceived",
-            "printedName": "onMessageReceived(message:)",
+            "printedName": "onMessageReceived(message:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4214,11 +4632,43 @@
                   }
                 ],
                 "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:20XenoCommunicationIos0A4CoreC17onMessageReceived7messageySDySSSDySSypGG_tF",
-            "mangledName": "$s20XenoCommunicationIos0A4CoreC17onMessageReceived7messageySDySSSDySSypGG_tF",
+            "usr": "s:20XenoCommunicationIos0A4CoreC17onMessageReceived7message10completionySDySSSDySSypGG_ys6ResultOySbs5Error_pGctF",
+            "mangledName": "$s20XenoCommunicationIos0A4CoreC17onMessageReceived7message10completionySDySSSDySSypGG_ys6ResultOySbs5Error_pGctF",
             "moduleName": "XenoCommunicationIos",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
@@ -4226,17 +4676,49 @@
           {
             "kind": "Function",
             "name": "unsetUser",
-            "printedName": "unsetUser()",
+            "printedName": "unsetUser(completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:20XenoCommunicationIos0A4CoreC9unsetUseryyF",
-            "mangledName": "$s20XenoCommunicationIos0A4CoreC9unsetUseryyF",
+            "usr": "s:20XenoCommunicationIos0A4CoreC9unsetUser10completionyys6ResultOySbs5Error_pGc_tF",
+            "mangledName": "$s20XenoCommunicationIos0A4CoreC9unsetUser10completionyys6ResultOySbs5Error_pGc_tF",
             "moduleName": "XenoCommunicationIos",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
@@ -4601,6 +5083,68 @@
         "name": "URLRequest",
         "printedName": "URLRequest",
         "children": [
+          {
+            "kind": "Function",
+            "name": "fetchData",
+            "printedName": "fetchData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URLResponse?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URLResponse",
+                        "printedName": "Foundation.URLResponse",
+                        "usr": "c:objc(cs)NSURLResponse"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Error)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Foundation10URLRequestV20XenoCommunicationIosE9fetchDataAA0G0VSg_So13NSURLResponseCSgs5Error_pSgtyF",
+            "mangledName": "$s10Foundation10URLRequestV20XenoCommunicationIosE9fetchDataAA0G0VSg_So13NSURLResponseCSgs5Error_pSgtyF",
+            "moduleName": "XenoCommunicationIos",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
           {
             "kind": "Function",
             "name": "newRequest",

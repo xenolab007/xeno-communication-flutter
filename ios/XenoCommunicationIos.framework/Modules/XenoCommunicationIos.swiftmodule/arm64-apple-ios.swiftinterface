@@ -23,9 +23,9 @@ public struct XenoConfig {
 }
 public protocol XenoCommunicationPlugin {
   var config: XenoCommunicationIos.XenoConfig { get set }
-  func setUser(country: Swift.String?, phone: Swift.String?, email: Swift.String?, name: Swift.String?)
-  func updateDeviceToken(token: Swift.String)
-  func setNotificationPermission(hasPermission: Swift.Bool)
-  func onMessageReceived(remoteMessage: [Swift.String : [Swift.String : Any]])
-  func unsetUser()
+  func setUser(country: Swift.String?, phone: Swift.String?, email: Swift.String?, name: Swift.String?, completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
+  func updateDeviceToken(token: Swift.String, completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
+  func setNotificationPermission(hasPermission: Swift.Bool, completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
+  func onMessageReceived(remoteMessage: [Swift.String : [Swift.String : Any]], completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
+  func unsetUser(completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
 }
