@@ -29,15 +29,10 @@ public class XenoCommunicationFlutterPlugin: NSObject, FlutterPlugin {
         
     case "user-authenticate":
         
-        let countryCode = args["phone"] as? String?
+        let countryCode = args["countryCode"] as? String?
         let phone = args["phone"] as? String?
         let email = args["email"] as? String?
         let name = args["name"] as? String?
-        
-        print("countryCode : \(String(describing: countryCode))")
-        print("phone : \(String(describing: phone))")
-        print("email : \(String(describing: email))")
-        print("name : \(String(describing: name))")
         
         XenoSDK.instance?.setUser(country: countryCode ?? "",
                                   phone: phone ?? "",

@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/XenoCommunicationIos.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		E9y7DbTYgABf+TffV0do4mNnoi0=
+		bpaqZ2LPX/HiCkbw40dlA0Q4jRY=
 		</data>
 		<key>Modules/XenoCommunicationIos.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		2wnVY5kvTJAL5Vp0igUc2RHtFP4=
+		9IDqutevfg9DAMMCoYAtvqpazZQ=
 		</data>
 		<key>Modules/XenoCommunicationIos.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/XenoCommunicationIos.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		2Ulp782lTlB0PmiDheginWTIAy4=
+		pVV5HJgfPPIJe6jXgr/ubCcNCak=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,14 +54,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HDuFpHaNRgEtz+3Pwv3RJlsdka4+OAezllr5GUJSlS0=
+			uUx67xoimD2yAGQ38wLG3erSfJF7fFX/OlgWZyNTC0E=
 			</data>
 		</dict>
 		<key>Modules/XenoCommunicationIos.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uGkD1Tm6yxUZYnS5XMbU4NWlXAVPAQDnBQpukvaEIE4=
+			n67LdecR8JvxfDg6x8vZeoTRRAnJlWFB8zdHiwhVg5E=
 			</data>
 		</dict>
 		<key>Modules/XenoCommunicationIos.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7Xa7nG1k3WgnyXXdnQ2U9L88+uDEaD4Sk1QRGi6gIvY=
+			mHDcVWeyyZCqQSv+735DtdESrVFKmSYOJX/dIbPOphM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

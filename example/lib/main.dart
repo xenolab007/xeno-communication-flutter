@@ -29,6 +29,7 @@ class _MyAppState extends State<MyApp> {
       countryCode: "+91",
       name: "",
     );
+    await _xenoPlugin.onTokenReceived("deviceToken");
     await _xenoPlugin.requestNotificationPermission();
   }
 
