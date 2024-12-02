@@ -14,8 +14,22 @@
 ```agsl
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
-    <activity android:name="PushPermissionActivity" android:theme="@style/Theme.Transparent" />
+    <activity android:name="PushPermissionActivity" android:theme="@style/ThemeTransparent" />
 ```
+
+## style.xml
+```
+<style name="ThemeTransparent" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+```
+
+
 
 ## Open android permission setting when needed
 ```agsl
