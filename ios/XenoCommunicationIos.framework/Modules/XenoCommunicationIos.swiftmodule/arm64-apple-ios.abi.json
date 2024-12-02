@@ -1402,14 +1402,22 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "SdkAuthData",
-                "printedName": "XenoCommunicationIos.SdkAuthData",
-                "usr": "s:20XenoCommunicationIos11SdkAuthDataV"
+                "name": "Optional",
+                "printedName": "XenoCommunicationIos.SdkAuthData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SdkAuthData",
+                    "printedName": "XenoCommunicationIos.SdkAuthData",
+                    "usr": "s:20XenoCommunicationIos11SdkAuthDataV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:20XenoCommunicationIos12CacheManagerC24saveMerchantJwtTokenTemp6resultyAA11SdkAuthDataV_tF",
-            "mangledName": "$s20XenoCommunicationIos12CacheManagerC24saveMerchantJwtTokenTemp6resultyAA11SdkAuthDataV_tF",
+            "usr": "s:20XenoCommunicationIos12CacheManagerC24saveMerchantJwtTokenTemp6resultyAA11SdkAuthDataVSg_tF",
+            "mangledName": "$s20XenoCommunicationIos12CacheManagerC24saveMerchantJwtTokenTemp6resultyAA11SdkAuthDataVSg_tF",
             "moduleName": "XenoCommunicationIos",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
@@ -1426,14 +1434,22 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "SdkAuthRequest",
-                "printedName": "XenoCommunicationIos.SdkAuthRequest",
-                "usr": "s:20XenoCommunicationIos14SdkAuthRequestV"
+                "name": "Optional",
+                "printedName": "XenoCommunicationIos.SdkAuthRequest?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SdkAuthRequest",
+                    "printedName": "XenoCommunicationIos.SdkAuthRequest",
+                    "usr": "s:20XenoCommunicationIos14SdkAuthRequestV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:20XenoCommunicationIos12CacheManagerC18saveSdkAuthRequest3reqyAA0ghI0V_tF",
-            "mangledName": "$s20XenoCommunicationIos12CacheManagerC18saveSdkAuthRequest3reqyAA0ghI0V_tF",
+            "usr": "s:20XenoCommunicationIos12CacheManagerC18saveSdkAuthRequest3reqyAA0ghI0VSg_tF",
+            "mangledName": "$s20XenoCommunicationIos12CacheManagerC18saveSdkAuthRequest3reqyAA0ghI0VSg_tF",
             "moduleName": "XenoCommunicationIos",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
