@@ -22,16 +22,16 @@ class _MyAppState extends State<MyApp> {
   }
 
   Future<dynamic> init() async {
-    await _xenoPlugin.sdkInit("zsdbha795t", isProduction: true);
-
-    await Future.delayed(const Duration(seconds: 10));
-    await _xenoPlugin.setUser(
-      phone: "9999999999",
-      email: "",
-      countryCode: "+91",
-      name: "",
-    );
-    await _xenoPlugin.onTokenReceived("deviceToken");
+    // await _xenoPlugin.sdkInit("zsdbha795t", isProduction: true);
+    //
+    // await Future.delayed(const Duration(seconds: 10));
+    // await _xenoPlugin.setUser(
+    //   phone: "9999999999",
+    //   email: "",
+    //   countryCode: "+91",
+    //   name: "",
+    // );
+    // await _xenoPlugin.onTokenReceived("deviceToken");
     await _xenoPlugin.requestNotificationPermission();
   }
 

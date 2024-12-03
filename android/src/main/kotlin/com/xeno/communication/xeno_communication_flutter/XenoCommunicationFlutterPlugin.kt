@@ -21,6 +21,7 @@ class XenoCommunicationFlutterPlugin : FlutterPlugin, MethodCallHandler, Activit
     val pluginChannelName = "xeno/xeno_communication_flutter"
     private lateinit var context: Context
     private lateinit var activity: Activity
+    private var permissionHelper: PermissionHelper = PermissionHelper()
 
     /// The MethodChannel that will the communication between Flutter and native Android
     ///
@@ -58,10 +59,7 @@ class XenoCommunicationFlutterPlugin : FlutterPlugin, MethodCallHandler, Activit
                 Log.i(tag, "Name: $name")
 
                 XenoSDK.instance?.setUser(
-                    country = countryCode,
-                    phone = phone,
-                    email = email,
-                    name = name
+                    country = countryCode, phone = phone, email = email, name = name
                 )
                 result.success(true)
 
@@ -77,13 +75,13 @@ class XenoCommunicationFlutterPlugin : FlutterPlugin, MethodCallHandler, Activit
 
 //                val hasPermission = call.argument<Boolean>("os-permission") as Boolean
 
-                PermissionHelper.requestPermission(activity, object : PermissionCallback {
+                permissionHelper.askNotificationPermission(activity, object : PermissionCallback {
                     override fun onPermissionResult(hasPermission: Boolean) {
                         XenoSDK.instance?.setNotificationPermission(hasPermission)
                         Log.i(tag, "HasPermission: $hasPermission")
+                        result.success(true)
                     }
                 })
-                result.success(true)
 
             } else if (call.method == "on-message-received") {
 
@@ -115,6 +113,10 @@ class XenoCommunicationFlutterPlugin : FlutterPlugin, MethodCallHandler, Activit
 
     override fun onAttachedToActivity(binding: ActivityPluginBinding) {
         activity = binding.activity
+        binding.addActivityResultListener { requestCode, resultCode, data ->
+            permissionHelper.handlePermissionResult(requestCode, resultCode)
+            false
+        }
     }
 
     override fun onDetachedFromActivityForConfigChanges() {

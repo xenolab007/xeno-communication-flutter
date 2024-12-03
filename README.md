@@ -13,11 +13,9 @@
 ## Add This in application's manifest file
 ```agsl
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-
-    <activity android:name="PushPermissionActivity" android:theme="@style/ThemeTransparent" />
 ```
 
-## style.xml
+## style.xml ( in case required this transparent theme )
 ```
 <style name="ThemeTransparent" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowIsTranslucent">true</item>
