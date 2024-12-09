@@ -1284,6 +1284,168 @@
             "hasStorage": true
           },
           {
+            "kind": "Var",
+            "name": "keyIsProduction",
+            "printedName": "keyIsProduction",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos12CacheManagerC15keyIsProduction33_66E9B6F65505E071ECD54C772628A241LLSSvp",
+            "mangledName": "$s20XenoCommunicationIos12CacheManagerC15keyIsProduction33_66E9B6F65505E071ECD54C772628A241LLSSvp",
+            "moduleName": "XenoCommunicationIos",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "keySessionId",
+            "printedName": "keySessionId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos12CacheManagerC12keySessionId33_66E9B6F65505E071ECD54C772628A241LLSSvp",
+            "mangledName": "$s20XenoCommunicationIos12CacheManagerC12keySessionId33_66E9B6F65505E071ECD54C772628A241LLSSvp",
+            "moduleName": "XenoCommunicationIos",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "keyUserJwtToken",
+            "printedName": "keyUserJwtToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos12CacheManagerC15keyUserJwtToken33_66E9B6F65505E071ECD54C772628A241LLSSvp",
+            "mangledName": "$s20XenoCommunicationIos12CacheManagerC15keyUserJwtToken33_66E9B6F65505E071ECD54C772628A241LLSSvp",
+            "moduleName": "XenoCommunicationIos",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 3,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "keyMerchantJwtTokenTemp",
+            "printedName": "keyMerchantJwtTokenTemp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos12CacheManagerC23keyMerchantJwtTokenTemp33_66E9B6F65505E071ECD54C772628A241LLSSvp",
+            "mangledName": "$s20XenoCommunicationIos12CacheManagerC23keyMerchantJwtTokenTemp33_66E9B6F65505E071ECD54C772628A241LLSSvp",
+            "moduleName": "XenoCommunicationIos",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 4,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "keyUserAuthRequest",
+            "printedName": "keyUserAuthRequest",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos12CacheManagerC18keyUserAuthRequest33_66E9B6F65505E071ECD54C772628A241LLSSvp",
+            "mangledName": "$s20XenoCommunicationIos12CacheManagerC18keyUserAuthRequest33_66E9B6F65505E071ECD54C772628A241LLSSvp",
+            "moduleName": "XenoCommunicationIos",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 5,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "keySdkAuthRequest",
+            "printedName": "keySdkAuthRequest",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20XenoCommunicationIos12CacheManagerC17keySdkAuthRequest33_66E9B6F65505E071ECD54C772628A241LLSSvp",
+            "mangledName": "$s20XenoCommunicationIos12CacheManagerC17keySdkAuthRequest33_66E9B6F65505E071ECD54C772628A241LLSSvp",
+            "moduleName": "XenoCommunicationIos",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 6,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
             "kind": "Function",
             "name": "getIsProduction",
             "printedName": "getIsProduction()",
@@ -5726,6 +5888,48 @@
       "offset": 342,
       "length": 29,
       "value": "\"com.cacheManager.writeQueue\""
+    },
+    {
+      "filePath": "\/Users\/kshivam1177\/Downloads\/tech\/xeno\/notifications\/XenoSDK\/XenoCommunicationIos\/XenoCommunicationIos\/db\/CacheManager.swift",
+      "kind": "StringLiteral",
+      "offset": 437,
+      "length": 14,
+      "value": "\"isProduction\""
+    },
+    {
+      "filePath": "\/Users\/kshivam1177\/Downloads\/tech\/xeno\/notifications\/XenoSDK\/XenoCommunicationIos\/XenoCommunicationIos\/db\/CacheManager.swift",
+      "kind": "StringLiteral",
+      "offset": 483,
+      "length": 11,
+      "value": "\"sessionId\""
+    },
+    {
+      "filePath": "\/Users\/kshivam1177\/Downloads\/tech\/xeno\/notifications\/XenoSDK\/XenoCommunicationIos\/XenoCommunicationIos\/db\/CacheManager.swift",
+      "kind": "StringLiteral",
+      "offset": 529,
+      "length": 14,
+      "value": "\"userJwtToken\""
+    },
+    {
+      "filePath": "\/Users\/kshivam1177\/Downloads\/tech\/xeno\/notifications\/XenoSDK\/XenoCommunicationIos\/XenoCommunicationIos\/db\/CacheManager.swift",
+      "kind": "StringLiteral",
+      "offset": 586,
+      "length": 22,
+      "value": "\"MerchantJwtTokenTemp\""
+    },
+    {
+      "filePath": "\/Users\/kshivam1177\/Downloads\/tech\/xeno\/notifications\/XenoSDK\/XenoCommunicationIos\/XenoCommunicationIos\/db\/CacheManager.swift",
+      "kind": "StringLiteral",
+      "offset": 646,
+      "length": 17,
+      "value": "\"UserAuthRequest\""
+    },
+    {
+      "filePath": "\/Users\/kshivam1177\/Downloads\/tech\/xeno\/notifications\/XenoSDK\/XenoCommunicationIos\/XenoCommunicationIos\/db\/CacheManager.swift",
+      "kind": "StringLiteral",
+      "offset": 700,
+      "length": 16,
+      "value": "\"SdkAuthRequest\""
     },
     {
       "filePath": "\/Users\/kshivam1177\/Downloads\/tech\/xeno\/notifications\/XenoSDK\/XenoCommunicationIos\/XenoCommunicationIos\/network\/NetworkClient.swift",
