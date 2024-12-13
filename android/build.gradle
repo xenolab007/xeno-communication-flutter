@@ -54,7 +54,7 @@ android {
         testImplementation("org.mockito:mockito-core:5.2.0")
 
         implementation 'androidx.appcompat:appcompat:1.7.0'
-        implementation("com.getxeno.sdk:xeno-communication:0.0.1-alpha2")
+        implementation("com.getxeno.sdk:xeno-communication:0.0.1-alpha3")
     }
 
     testOptions {
